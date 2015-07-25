@@ -2,8 +2,7 @@
 
 title:            My blog 
 locale:           en_US
-url:             pablomusumeci.github.io 
-
+url:
 # Jekyll configuration
 
 permalink:   /:categories/:title/

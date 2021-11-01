@@ -4,7 +4,8 @@ title: About me
 tags: [about]
 ---
 
-I'm 25, from Argentina. I've graduated from the [University of Buenos Aires](http://fi.uba.ar) with a Software/Computer Engineering degree. 
+I'm 30, originally from Argentina but currently living in Amsterdam. 
+I've graduated from the [University of Buenos Aires](http://fi.uba.ar) with a Software/Computer Engineering degree. 
 I enjoy reading scify books, comics, playing football, travelling and meeting new people!
 
 ### Things to know me better

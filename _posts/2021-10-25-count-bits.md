@@ -6,13 +6,13 @@ modified: 2021-10-25
 comments: true
 ---
 
-The problem is simple:
+The [problem](https://leetcode.com/problems/number-of-1-bits) is simple:
 
 > Write a function that takes an unsigned integer and returns the number of '1' bits it has (also known as the Hamming weight).
 
-What I really liked about this problem is that there are so many different ways to
-get to the answer. Usually this kind of coding chalenges depend on you knowning 
-that _one trick_ that solves the question. So at the end it boils down to whether you
+What I really liked about this problem is that there are so many different ways of solving it. 
+Usually this kind of coding challenges depends on knowning 
+that _one trick_ that solves the question. So at the end it all boils down to whether you
 know the trick or not, which doesn't leave a lot of room for debating about alternative 
 solutions.
 
@@ -30,7 +30,7 @@ But probably this is not what your interviewer was looking for when they asked t
 
 ## Integer.toBinaryString(n)
 
-If you are still afraid of bit manipulation (you shouldn't!), you can use this other [Integer API](https://docs.oracle.com/javase/7/docs/api/java/lang/Integer.html#toBinaryString(int)) which returns a String representation of the integer argument used as an unsigned integer in base 2.
+If you are still afraid of bit manipulation (you shouldn't!), you can use this other [Integer API](https://docs.oracle.com/javase/7/docs/api/java/lang/Integer.html#toBinaryString(int)) which returns a String containing the binary representation of the number.
 
 That just simply means:
 
@@ -105,8 +105,7 @@ leftPadded(-102937123 >> 1); // "11111100111011101010011011101110"
 
 Pay attention to the start of the String and see how the 1 is extended.
 
-> **111110**01110111010100110111011101
-> **111111**00111011101010011011101110
+> **111110** 01110111010100110111011101<br>**111111** 00111011101010011011101110
 
 ### Logical bit shifting
 
@@ -119,8 +118,7 @@ leftPadded(-102937123 >>> 1); // "01111100111011101010011011101110"
 
 `<<<` or `>>>` don't care that the value could possibly represent a signed number; it simply moves everything to the left/right and fills in from the left with 0s. 
 
-> **111110**01110111010100110111011101
-> **011111**00111011101010011011101110
+> **111110** 01110111010100110111011101<br>**011111** 00111011101010011011101110
 
 Now that we know this, we can fix our previous solution:
 
@@ -143,10 +141,16 @@ Our solution runs in constant time as it executes a fixed number of operations (
 
 ## Brian Kernighan's Algorithm
 
+This algorithm is not easy to grasp at first chance, so be patient and review each step carefully (multiple times if possible). 
+
 ### Observation
 
-Brian Kernighan (yes, the same guy from (The C programming language)[https://en.wikipedia.org/wiki/The_C_Programming_Language] book) realised that subtracting 1 from a number flips all the bits after the rightmost set bit (included). 
+Before going straight to the algorithm, let's talk about the observation that serves as a foundation for the algorithm.
 
+
+Brian Kernighan (yes, the same guy from [The C programming language](https://en.wikipedia.org/wiki/The_C_Programming_Language) book) realised that subtracting 1 from a number flips all the bits after the rightmost set bit (included).
+
+The _rightmost set bit_ is just another way of saying the last `1` in the binary representation, going from left to right.
 
 What!? Let's see an example:
 
@@ -163,16 +167,21 @@ What!? Let's see an example:
 1  in binary is 0001
 ```
 
-Let's examine 9 and 8 where the case is easier to observe. The rightmost bit is the 1 at the end, so only that one is flipped when we go from 9 to 8. 
+Let's examine 9 and 8 where the it's easier to observe the change. The rightmost set bit of 9 is the `1` at the end (9 is `1001` in binary, so we are talking about position number 4), so only that one is flipped when we go from 9 to 8 because there is nothing else on the right.
+
 This means that if the number is odd, then substracting one will just convert that last 1 into a 0. `1001` converts into `1000`.
 
-So for odd numbers is easy to understand, let's check the rest:
+So for odd numbers is trivial, let's check something more complex:
 
 Going from 8 to 7, `1000` converts into `0111`, so all the bits are flipped starting (and including) the rightmost set bit.
 
+>1000
+>0111
+
 ### Algorithm
 
-Now that we know this, let's try to count the number of `1`s in number 10.
+Now that we know this, let's try to count the number of `1`s in number 10. To do that, we are going to
+do a bitwise `AND` operation between `n` (the number being processed, 10 in this example) and `n - 1`.
 
 ```
 10     in binary is 1010
@@ -180,9 +189,12 @@ Now that we know this, let's try to count the number of `1`s in number 10.
 10 & 9 in binary is 1000
 ```
 
-If we pay attention to the result of `10 & 9 = 1000` we see that the least significant bit of `1010` dissapeared.
+If we pay attention to the result of `10 & 9 = 1000` we see that the rightmost set bit of `1010` turned from `1` to `0`.
+So every time we do an `n & (n - 1)` the result is the binary representation of `n` but with one less `1`.
+
 So what Kernighan's Algorithm is all about is executing `number & (number - 1)` until all `1` bits have dissapeared, 
-while keeping count of how many times we had to do this in order to achieve only zeroes.
+while keeping count of how many times we had to do this in order to achieve only zeroes. And because each `n & (n - 1)`
+operation removes one `1`, then we can just count the times we did this and we will have the answer to our original problem.
 
 {% highlight java %}
 public int hammingWeight(int n) {    
@@ -199,6 +211,23 @@ public int hammingWeight(int n) {
 Kernighan's solution also runs in constant time (like bit masking) but it does the minimum amount of work necessary as it only counts
 the `1`s without doing any extra work at all. 
 
+Not clear enough? Let's do a full example.
+
+```
+Iteration 1
+-----------
+n = 10          // 1010
+n - 1 = 9       // 1001
+n & (n - 1) = 8 // 1000
+
+Iteration 2
+-----------
+n = 8           // 1000
+n - 1 = 7       // 0111
+n & (n - 1) = 0 // 0000
+```
+
+We only do 2 iterations until `n` becomes `0`, and that's all we needed!
 
 # Conclusions
 
@@ -206,8 +235,8 @@ I don't think anybody expects an interviewee to know about Kernighan's clever al
 Moreover, I think knowing about bit masking can help you solving many other similar problems that involve bit manipulations.
 Being said that, I still think that Kernighan's algorithm is an awesome solution and that's why I wanted to mention it.
 
-Trying to use a mystical algorithm you don't quite know or remember during an interview can easily (and will probably) back-fire if you cannot explain
-what you are doing or why are you doing it. Even worse, you might not even get to the answer because you don't remember the algorithm exact details.
+Trying to use a mystical algorithm you don't quite know or remember during an interview can easily (and will probably) back-fire if you cannot explain what you are doing or why are you doing it. 
+Even worse, you might not even get to the answer because you don't remember the algorithm exact details.
 
 ## Reflecting on coding challenges
 
@@ -222,8 +251,6 @@ As Richard Feynmann says:
 > What I cannot create, I do not understand.
 
 Finding your way through coding challenges is a long process, takes a lot of time. Not only time practicing but time for the ideas to sink in.
-Be patience, and try do improve just a bit every day. Re-doing the challenges (which might sound at the beggining like a waste of time) ended up
-being the **best** usage of my time. And if you trully know how to solve the problem, then it will only take you a few minutes to code it. But if you
-thought that you knew and you don't then you will learn what you don't know, which is not a small thing.
+Be patience, and try do improve just a bit every day. Re-doing the challenges (which might sound at the beggining like a waste of time) ended up being the **best** usage of my time. And if you trully know how to solve the problem, then it will only take you a few minutes to code it. But if you thought that you knew and you don't then you will learn what you don't know, which is not a small thing.
 
 Hope you learned something by reading this because I'm sure I did while solving this challenge and preparing this blog post.

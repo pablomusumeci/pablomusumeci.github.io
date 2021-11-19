@@ -246,9 +246,9 @@ Then I try to re-do the same problem and fail again! How is that even possible? 
 It's because I didn't **fully** understand everything that was going on, how all the pieces of the puzzle fit together. 
 In that case I end up doubly frustrated, because I didn't solved the problem and because I now fell stupid that I cannot solve the problem even "knowing" the answer.
 
-As Richard Feynmann says:
-
 > What I cannot create, I do not understand.
+>
+> -- <cite>Richard Feynmann</cite>
 
 Finding your way through coding challenges is a long process, takes a lot of time. Not only time practicing but time for the ideas to sink in.
 Be patience, and try do improve just a bit every day. Re-doing the challenges (which might sound at the beggining like a waste of time) ended up being the **best** usage of my time. And if you trully know how to solve the problem, then it will only take you a few minutes to code it. But if you thought that you knew and you don't then you will learn what you don't know, which is not a small thing.

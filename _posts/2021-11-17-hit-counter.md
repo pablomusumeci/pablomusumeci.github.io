@@ -2,7 +2,7 @@
 layout: post
 title: Design a hit counter
 excerpt: "AKA design a rate limiter"
-modified: 2021-11-07
+modified: 2021-11-17
 comments: true
 ---
 
@@ -35,7 +35,7 @@ Enough chatting, let's jump into the code!
 
 ## Code
 
-{% highlight java %}
+{% highlight java linenos %}
 class HitCounter {
     Queue<Integer> queue = new LinkedList<>();
 
@@ -66,7 +66,7 @@ Visualize the difference in memory consumption between a list like `[1, 1, 1, 1,
 
 # Using a TreeMap 
 
-{% highlight java %}
+{% highlight java linenos %}
 class HitCounter {
     private TreeMap<Integer, Integer> tree = new TreeMap<>();
     
@@ -115,7 +115,7 @@ we need to make a compromise. Let's check our third and final solution that solv
 
 # Using a circular array
 
-{% highlight java %}
+{% highlight java linenos %}
 public class HitCounter {
     private int[] timestamps;
     private int[] hits;

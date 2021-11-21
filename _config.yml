@@ -7,7 +7,7 @@ url:
 
 permalink:   /:categories/:title/
 markdown:    kramdown
-highlighter: pygments
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed
@@ -34,7 +34,7 @@ owner:
   google:
     plus: #username
     analytics:
-    verify:
+    verify: 3ac8c39a711f7b1c6
     ad-client:
     ad-slot:
   bing-verify:

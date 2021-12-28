@@ -1,12 +1,13 @@
 ---
-layout: post
 title: Design a hit counter
-excerpt: "AKA design a rate limiter"
-modified: 2021-11-17
-comments: true
+excerpt: AKA design a rate limiter
+last_modified_at: 2021-11-17
+categories:
+  - Leetcode
+tags:
+  - Leetcode
+  - Java
 ---
-
-# Description
 
 Today's coding challenge is about designing a rate limiter in Java. We will go over 3 different implementations while discussing all the
 trade-offs for each solution, the time and space complexity and also a deep dive into the code.
@@ -27,7 +28,7 @@ basis for designing a rate limiting algorithm. Imagine that each hit received is
  dropped or not.
 
 
-![Hit Counter](/images/hit-counter/leetcode-hit-counter.png)
+![Hit Counter](/assets/images/hit-counter/leetcode-hit-counter.png)
 
 Enough chatting, let's jump into the code!
 
@@ -90,7 +91,7 @@ takes `O(log(n))` time for updating the tree.
 
 What about getting the hit count? Every time we want to get the amount of hits we first evict old entries that don't fit in our `300 seconds` window anymore by replacing the entire tree with just a portion of that only contains the entries that should still be counted.
 
-For that sake we use [subMap]
+For that sake we use [subMap
 ](https://docs.oracle.com/javase/8/docs/api/java/util/TreeMap.html#subMap-K-boolean-K-boolean-):
 > Returns a view of the portion of this map whose keys range from fromKey to toKey.
 
@@ -172,7 +173,7 @@ belong to a completely separate `300` seconds window, but they live inside the s
 
 Still unclear? Let's check a toy example with a 10 seconds window:
 
-![Example](/images/hit-counter/example.png)
+![Example](/assets/images/hit-counter/example.png)
 
 ## Analysis
 

@@ -1,14 +1,17 @@
 ---
-layout: post
-title: Count the number of 1 bits in an integer
-excerpt: "Also known as calculating the hamming weight"
-modified: 2021-10-25
-comments: true
+title:  Count the number of 1 bits in an integer
+excerpt: Also known as calculating the hamming weight
+last_modified_at: 2021-10-25
+categories:
+  - Leetcode
+tags:
+  - Leetcode
+  - Java
 ---
 
 The [problem](https://leetcode.com/problems/number-of-1-bits) is simple:
 
-> Write a function that takes an unsigned integer and returns the number of '1' bits it has (also known as the Hamming weight).
+> Write a function that takes an unsigned integer and returns the number of 1 bits it has (also known as the Hamming weight).
 
 What I really liked about this problem is that there are so many different ways of solving it. 
 Usually this kind of coding challenges depends on knowning 

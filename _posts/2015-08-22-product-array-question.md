@@ -1,9 +1,12 @@
 ---
-layout: post
 title: Product array interview question 
-excerpt: "Tricky array interview question"
-modified: 2015-08-22
-comments: true
+excerpt: Tricky array interview question
+last_modified_at: 2015-08-22
+categories:
+  - Leetcode
+  - Python
+tags:
+  - Leetcode
 ---
 
 The other day I came across this tricky question:

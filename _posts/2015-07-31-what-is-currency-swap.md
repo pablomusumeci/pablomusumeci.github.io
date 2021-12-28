@@ -1,9 +1,9 @@
 ---
-layout: post
-title: What is currency swap? 
-excerpt: "Learning about economics"
-modified: 2015-07-25
-comments: true
+title:  What is currency swap? 
+excerpt: Learning about economics
+last_modified_at: 2015-07-25
+categories:
+  - Economics
 ---
 
 I know this has nothing to do with software but I still find it interesting.

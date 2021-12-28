@@ -1,9 +1,12 @@
 ---
-layout: post
-title: Monotonic Stack 101
-excerpt: "What is a monotonic stack?"
-modified: 2021-11-07
-comments: true
+title:  Monotonic Stack 101
+excerpt: What is a monotonic stack?
+last_modified_at: 2021-11-07
+categories:
+  - Leetcode
+tags:
+  - Leetcode
+  - Java
 ---
 Another post, another coding challenge.
 
@@ -14,7 +17,7 @@ If there is no `j` such that `values[j] > values[i]`, then `solution[i] == 0`.
 
 What!? It's much simpler than that. This is known as the [daily temperatures](https://leetcode.com/problems/daily-temperatures/) problem in LeetCode.
 
-![Temperatures](/images/monotonic-stack/temperatures.png)
+![Temperatures](/assets/images/monotonic-stack/temperatures.png)
 
 
 Let's start with a naive solution and see later how can we do better!
@@ -129,41 +132,41 @@ Let's go through an example before jumping into the code:
 - We construct a new array with the same size as the input to store our results `int[] result = new int[values.length];`.
 - We declare a `new Stack<>()` that will help us processing the elements. 
 - We process element index `0` and value `4`, and because the stack is empty we just put it in the stack to be processed later.
-![Step 0](/images/monotonic-stack/0.png)
+![Step 0](/assets/images/monotonic-stack/0.png)
 
 - We process element index `1` and value `3`. As `3` is smaller than the value referenced by the index at top of the stack `values[1] < values[0] == 3 < 4`,
 then we don't do anything and just push index `1` onto the stack.
 
-![Step 1](/images/monotonic-stack/1.png)
+![Step 1](/assets/images/monotonic-stack/1.png)
 
 - Same as before for index `2`.
 
-![Step 2](/images/monotonic-stack/2.png)
+![Step 2](/assets/images/monotonic-stack/2.png)
 
 
 - Here things get interesting. Current index is `3` and the value is larger than the one referenced by the top of the stack `values[3] > values[2] == 6 > 1`.
 - So we pop index `2` from the stack, and `result[2] = 3 - 2`.
 - In code this would be `result[topOfStack] = current - topOfStack` where `topOfStack = 2` and `current  = 3`.
 
-![Step 3](/images/monotonic-stack/3.png)
+![Step 3](/assets/images/monotonic-stack/3.png)
 
 - Current index is still `3` but we haven't finished processing all the possible elements from the stack. 
 - So we pop index `1` from the stack, and `result[1] = 3 - 1`.
 - We do the same for index `0` and `result[0] = 3 - 0`.
 - Finally we push index `3` as we cannot calculate `result[3]` yet.
 
-![Step 5](/images/monotonic-stack/5.png)
+![Step 5](/assets/images/monotonic-stack/5.png)
 
 - With the same logic as in the first steps, we push index `4` onto the stack.
 
-![Step 6](/images/monotonic-stack/6.png)
+![Step 6](/assets/images/monotonic-stack/6.png)
 
 - Current index is `5` and the value is larger than the one referenced by the top of the stack `values[5] > values[4]`.
 - So we pop index `4` from the stack, and `result[4] = 5 - 4`.
 - We finish processing the array and there is still an element in the Stack. Remember what I said about Java initialising
 arrays with a `0` in every position? Due to that we don't need to do any processing for those elements that are still in the stack.
 
-![Step 7](/images/monotonic-stack/7.png)
+![Step 7](/assets/images/monotonic-stack/7.png)
 
 
 Let's see how that looks like in code:

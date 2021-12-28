@@ -1,9 +1,9 @@
 ---
-layout: post
-title: Python ABC module
-excerpt: "Abstract Base Class module"
-modified: 2015-11-22
-comments: true
+title:  Python ABC module
+excerpt: Abstract Base Class module
+last_modified_at: 2015-11-22
+categories:
+  - Python
 ---
 
 I want to mention something that can help you to reduce the amount of error prone class hierachies in Python.

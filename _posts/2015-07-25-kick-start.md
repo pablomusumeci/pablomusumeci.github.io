@@ -1,9 +1,7 @@
 ---
-layout: post
-title: Kick-Start
-excerpt: "Why I'm doing this."
-modified: 2015-07-25
-comments: true
+title:  Kick-Start
+excerpt: Why I'm doing this.
+last_modified_at: 2015-07-25
 ---
 
 Hi there, this is the first post of my first blog :¬)

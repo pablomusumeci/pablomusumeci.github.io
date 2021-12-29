@@ -103,7 +103,7 @@ Your brain is so used to your IDE features that you don't even know you are usin
 You have to learn the basics again. Debugger? Forget about it, here we think hard and use strategic prints to understand what's going on.
 
 {:refdef: style="text-align: center;"}
-![Blind](/images/acing-the-software-engineering-interview/Blind.jpeg)
+![Blind](/assets/images/acing-the-software-engineering-interview/Blind.jpeg)
 {: refdef}
 
 
@@ -124,7 +124,7 @@ This is a premium feature  but one that makes going premium definitely worth it.
 some configurable amount of exercises and a fixed amount of time for solving them. 
 
 {:refdef: style="text-align: center;"}
-![assesment](/images/acing-the-software-engineering-interview/assesment.png)
+![assesment](/assets/images/acing-the-software-engineering-interview/assesment.png)
 {: refdef}
 
 
@@ -135,13 +135,13 @@ You can be a genious coming with elegant efficient solutions but if you can't do
 After time is finished, you get a report evaluating your performance against other candidates.
 
 {:refdef: style="text-align: center;"}
-![report](/images/acing-the-software-engineering-interview/Leetcode-report.png)
+![report](/assets/images/acing-the-software-engineering-interview/Leetcode-report.png)
 {: refdef}
 
 It also shows you an overview on the different areas you should focus for improvement.
 
 {:refdef: style="text-align: center;"}
-![overview](/images/acing-the-software-engineering-interview/Leetcode-overview.png)
+![overview](/assets/images/acing-the-software-engineering-interview/Leetcode-overview.png)
 {: refdef}
 
 :warning: Don't be distracted by those scores if you are doing this (and most people are) as preparation for interviewing.
@@ -165,7 +165,7 @@ Every time something fails, take your time to analyze the problem. Not only the 
 If you missed that one thing, how do you know that you haven't missed many others like that one?
 
 {:refdef: style="text-align: center;"}
-![Blind](/images/acing-the-software-engineering-interview/stop-think-act.jpeg)
+![Blind](/assets/images/acing-the-software-engineering-interview/stop-think-act.jpeg)
 {: refdef}
 
 Your interviewers are going to judge what kind of programmer you are:
@@ -358,7 +358,7 @@ myself to interview as much as I could for a number of reasons. Every interview 
 You become a tiny bit stronger regardless of the outcome. 
 
 {:refdef: style="text-align: center;"}
-![Fear](/images/acing-the-software-engineering-interview/fear-practice.png)
+![Fear](/assets/images/acing-the-software-engineering-interview/fear-practice.png)
 {: refdef}
 
 
@@ -385,7 +385,7 @@ There are [studies](https://pubmed.ncbi.nlm.nih.gov/2928064/) about how the pres
 > -- <cite>Effects of preshot routine on free-throw shooting</cite>
 
 {:refdef: style="text-align: center;"}
-![Lebron](/images/acing-the-software-engineering-interview/Lebron.gif)
+![Lebron](/assets/images/acing-the-software-engineering-interview/Lebron.gif)
 {: refdef}
 
 ### Why does a preshot routine work?
@@ -421,7 +421,7 @@ You want something that makes you enter the interview like Michael Jordan enteri
 a play-off game, ready to excel.    [Listening to the Chicago Bulls song from Alan Parsons still gives me goosebumps](https://www.youtube.com/watch?v=Zn6kiimEsYc).
 
 {:refdef: style="text-align: center;"}
-![MJ](/images/acing-the-software-engineering-interview/Michael-Jordan-Clapping.gif)
+![MJ](/assets/images/acing-the-software-engineering-interview/Michael-Jordan-Clapping.gif)
 {: refdef}
 
 Maybe this doesn't apply to you or you are a master of keeping your nerves under control, but after my first bad experience with FAANG I was

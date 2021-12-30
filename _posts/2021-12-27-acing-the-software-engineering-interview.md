@@ -13,18 +13,6 @@ toc_icon: code
 toc_sticky: true
 ---
 
-- Focus on coding interview first
-- First barrier, most nervous about
-X Solving problems in my own IDE, no timer
-- Solved as many problems as I could. Maximized amount of problems solved.
-- Gave up too quickly and check the solutions.
-- My strategy was: Solve as much as you can, and if you are lucky you will face a problem you already solved at the interview and bingo.
-- Doesn't scale. Leetcode has more than 2000 different problems. You cannot rely solely on your memory. 
-- When the time comes, you are going to barely remember the solution. Or even worse, you remember half of it
-try to recall the other half from your memory as you go and you end up stuck in a dead end.
-- After a month, I realised that strategy was not going to work. I was making progress but very slowly.
-- I tried re-doing exercises I've already done before and I couldn't solve them. How was that possible? Because I never
-trully understood what I was doing.
 - Listen to your interviewer, pick up the hints.
 - start with easy
 
@@ -38,9 +26,74 @@ Some resources that really helped me:
     - [Tech Dummies Narendra L](https://www.youtube.com/channel/UCn1XnDWhsLS5URXTi5wtFTA)
     - [Hussein Nasser](https://www.youtube.com/user/GISIGeometry)
 
-My framework:
-- Have 3 lists: To do, Re do, Done (state diagram excalidraw).
-# First get the ball rolling
+# About coding interviews
+
+## Does this even make sense?
+
+I get it. This is not what we do in our jobs and that's why we need to prepare so much for interviewing. It's a complete different skill.
+Is it fair? Does it make sense? It's the game we have to play. Sometimes I wonder if companies do these interviews to just
+see who has a will strong enough to endure all this crazy preparation. That might be the real test, a test of character.
+
+StackOverflow's co-founder [Joel Spolsky says](https://www.joelonsoftware.com/2006/10/25/the-guerrilla-guide-to-interviewing-version-30/):
+
+> You’re looking for people who are smart and get things done.
+>
+> -- <cite>Joel Spolsky</cite>
+
+The coding interview checks those boxes. That's why your interviewer will most likely clarify at the beginning of the session that
+they want to see running code. No pseudo-code but actual code.
+
+I also think that it's an extremely efficient process and to ilustrate that I will now compare it against the other 
+most used or suggested alternative on the market.
+
+## Take-home assignments
+
+What other tools do companies have for evaluating a candidate's skills? A take-home assigment sounds like a reasonable thing to do.
+You remove the stress and pressure for the candidate to think, code and explain all at the same time. Specially when
+asking him to solve a kind of problem which is miles away from anything they have done during their entire career.
+This is also why people fresh out of university do better in coding interviews than more mature senior engineers.
+If you took your CS courses a few months ago, then you are most likely to remember how to do a in-order transversal on a binary
+tree compared to someone who has been shipping production quality software and providing support for the last 3 years.
+
+But then the problems arise. Companies realize that asking a candidate to invest 8 to 10 hours of their personal time on solving 
+a problem at home is a lot. Most people can't even afford to do that as their have other commitments such as 
+their current job or even more important than that: Their own family.
+
+Even if the company states that "it should only take around 3 hours", we all know that everybody is going 
+to spend much more time than that. It's obvious that we all want to give our best in order to maximize our chances of being accepted 
+(or minimize chances of rejection).
+
+If I'm putting my time into this then I'm doing it as it should be done. 
+Production quality as we say in the industry, documented code with a full test suite.
+No one wants to submit a crappy assignment as that would be the same as putting on your LinkedIn: "I'm a crappy engineer".
+
+But this is not the end of the story because then if the company was lucky enough to receive an assingment instead of being ghosted
+by the candidante, then and only then they need to find potentially 2 reviewers (you don't want to rely on the biases of only one person, do you?).
+Reviewers must review the code, reason about the logic (you would be surprised about what candidates submit), write comments about what 
+do they don't like about it because you have to provide feedback. Even if you are 100% sure it's a no-go after reading the first 5 lines of code, you still have to provide feedback.
+
+It looks really bad for the company if a candidate spent several hours of their time working on 
+your assignment and then you just email them a message saying only: <span style="color:red">**REJECTED**</span>.
+
+Overall the process is much slower due it's async nature. The candidate needs to find a moment of their week where they have X hours 
+available to focus on the task which will probably happen during the weekend. Then the interviewers need to find a moment on their week
+to stop doing any other task and review the assigment (which might happen at different times for the different reviewers). Then reviewers
+need to come together to agree on a yay/nay decision. And only then recruiter can submit feedback and decide to move forward or not.
+
+Now compare this approach against a one hour synchronous session between a candidate and interviewers where they can not only asses (maybe suboptimally)
+the candidate's skills but also their communication style and interpersonal skills.
+
+Pros:
+- Better assesment of candidate skills on a real work environment
+
+Cons:
+- Takes more time for the candidate to complete
+- Takes more time for the interviewers to review
+- Overall slower due to synchronization overhead
+- Impossible to asses soft-skills
+- Easier to cheat
+
+## Get the ball rolling
 
 Before introducing the solution let me first present the problem. The way I started preparing for my coding interview
 was suboptimal. Now I obviously see that but at that time it made sense as I needed to get the ball rolling somehow.
@@ -210,15 +263,17 @@ make in your life. 35 USD can seem like a lot or not depending on where do you l
 (and most likely a better offer that can potentially be thousands of dollars more per year) then it's a price worth paying.
 
 ## Discussion section is the true gold mine
-After solving a problem (even with a terrible brute force solution) you **must** enter the discussion section of the challenge.
+After solving a problem (even with a terrible brute force solution) you **must** enter the discussion forum of that particular challenge.
 This is not optional if you ask me, here is where the magic happens.
 
-In the discussion forum you will find that there were probably (at least) 3 complete different ways of getting to an answer. 
+In the discussion forum you will find that there were probably (at least) 3 complete different ways of arriving to an answer. 
 
-Each one with their own pros and cons. Probably the most performant solution is an already existing algorithm or obscure technique 
-that no one can reallistically come up with it during an interview unless they've seen it beforehand.
+Each one with their own pros and cons, different time complexities as well. 
+Probably the most performant solution is an already existing algorithm or obscure technique that no one 
+can reallistically come up with it during an interview unless they've seen it beforehand.
 
-That's fine, no expects you to do that anyway. But reading, thinking and understanding those solutions will expand your horizon about how problems 
+That's fine, no expects you to come up with that during an interview anyway. 
+But reading, thinking and understanding those solutions will expand your horizon about how problems 
 can be solved. You most probably can use one of those ideas in another exercise because at some point [all the problems start to look similar to
 another one you already solved](#leetcode-templates).
 
@@ -233,6 +288,95 @@ that I cannot explain it in a simple way. Only then I see that I didn't fully ge
 > Now that you think you understand a topic reasonably well, explain it to a 12-year-old.
 >
 > -- <cite>The Feynman Technique.</cite>
+
+## Leetcode templates
+The more problems you solve, the more you start seeing the patterns that tie all of them together underneath. 
+There are thousands of different problems but only a handful of patterns.
+Sometimes the pattern is hidden and it's up to you to uncover it. What do I mean by _hidden_? 
+There are problems that due to the way they are phrased or presented, it's much more obvious how they should be modeled. 
+If you think about cities and routes connecting those cities then it's intuitive to think about a graph where the cities are nodes
+and the routes are edges.
+
+But other times things are not that obvious. Imagine modeling the current state of a solution as a node in a graph, and permutations of
+that solution as other nodes connected to the original node. Like a state machine. There you can model it as a graph and use all the graph traversal algorithms
+to move between states and arrive to a solution. No idea what I'm talking about? No problem, it will all make sense at some point.
+
+{% include video id="wGbuCyNpxIg" provider="youtube" %}
+
+The key aspect of this is that solving as many problems as you can and hoping to face the a problem that you have already 
+solved is not a good strategy.
+There are so many different problems with so many different variations of it that even if you are lucky enough to face
+a problem you have already seen, chances are that you are not going to remember the _"trick"_ to solve it.
+
+Remembering tricks leads you nowhere. When the time comes, you are going to barely remember the solution. Or even worse, 
+you will remember half of it and are going to spend half of the interview trying to recall the missing details from your memory 
+as you go. You will end up stucked in a dead end. Your memory is only useful for the patterns, not individual problems.
+
+When I say _patterns_ I'm not talking about the categories you might be thinking about. The following are not patterns:
+- Graphs transversals
+- Dynamic programming
+- Tree transversals
+- Linked lists
+
+Those are more like the general topics for the questions. The patterns are the techniques used for solving particular problems such as:
+- Using a [sliding window](https://medium.com/leetcode-patterns/leetcode-pattern-2-sliding-windows-for-strings-e19af105316b) on an array (or a String, which is just an array of characters).
+- Using [fast and slow pointers](https://en.wikipedia.org/wiki/Cycle_detection#:~:text=Floyd's%20cycle%2Dfinding%20algorithm%20is,The%20Tortoise%20and%20the%20Hare.) on a linked structure.
+- Using [binary search to solve minimization problems](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems).
+- Using [multiple data-structures](https://leetcode.com/problems/lru-cache/) for overcoming performance limitations of a single data-structure.
+
+Once you understand the pattern, you have a powerful tool in your belt for solving any problem similar to that one. Which is much more 
+useful than just hard-coding a trick in your brain for one specific problem.
+
+## TODO-REDO-DONE
+
+This was a game-changer for me and I stumbled on this idea just by chance. One day I had the crazy idea of re-doing an exercise 
+I had already solved. What a waste of time don't you think? If I was able to solving it in the past, I would for sure be able
+to solve it again. In fact, I should be able to solve it much quicker than before as I was already familiarized with both the problem
+and the solution.
+
+I was extremely dissapointed when I just couldn't figure it out. Ok, maybe it was just bad luck. Let me try another one... the same.
+Am I getting dumber with time?
+
+{:refdef: style="text-align: center;"}
+![simpsons](/assets/images/acing-the-software-engineering-interview/simpsons.gif)
+{: refdef}
+
+
+Something had to change, my approach was not working at all if I was not able to solve previously solved exercises. Some exercises
+are just much harder than others, and it's perfectly fine to check for the answer if you are not able to solve it. No one has enough
+time to spend a week on one single really hard problem which solution might be an [obscure algorithm](https://pablomusumeci.github.io/leetcode/count-bits/#brian-kernighans-algorithm) that either you know it or not. Only geniouses can come up with those algorithms by themselves (and probably not during an interview)
+and I'm not one of those. I'm just a normal guy.
+
+Checking the solution right away is also not the answer. You need to think hard for at least an hour I would say, so when you read and try
+to understand the solution (sometimes understanding the solution can take an hour on itself, not even mentioning trying to come up with that)
+it's more likely to stick in your brain. But those problems you ~think you~ understand, you need to revisit them in the future to double-check
+if you actually understood them or not.
+
+> There are known knowns. These are things we know that we know. There are known unknowns. That is to say, there are things that we know we don’t know. But there are also unknown unknowns. There are things we don’t know we don’t know.
+>
+> -- <cite>Donald Rumsfeld</cite>
+
+This is the method I developed for fighting against the *unknown unknowns*. I call it **TODO-REDO-DONE**.
+
+The first time you see a problem, it's just something that belongs to your *TODO* list.
+If the got to the on your own answer without too much sweat then you can mark it as *DONE*.
+But what if this problem was a tough nut to crack? Maybe you even had to check the answer in the [discussion forum](#discussion-section-is-the-true-gold-mine).
+Then it's better to reasses in the future if you truly understood all the details involved.
+Let's move it to the *REDO* list and take another look after a few days when the waters are calm in your brain.
+
+> What I cannot create, I do not understand.
+>
+> -- <cite>Richard Feynmann</cite>
+
+You will be exposed to less exercises if you do this. But the ones you have seen you can be damn sure
+that you understand them inside out. Less is more here.
+
+Luckily Leetcode allows you to create your own lists of exercises, so you can use that to keep track of
+which state do they currently belong to.
+
+{:refdef: style="text-align: center;"}
+![TODO](/assets/images/acing-the-software-engineering-interview/todo-redo-done.png)
+{: refdef}
 
 # You are your worst enemy
 
@@ -259,7 +403,7 @@ was silently saying to me:
 >
 > -- <cite>Pablo's brain during the interview.</cite>
 
-I managed to finish the first exercise on time just to have a very similar situation with the second one. Simple challenge but screwing it due 
+I managed to finish the first exercise on time only to have a very similar situation with the next one. Simple challenge but screwing it due 
 to being really nervous and not thinking clearly.
 
 ## Back to the drawing board
@@ -433,3 +577,54 @@ By the way, I received an email 3 weeks after the interview congratulating me fo
 that I was going to fail but I got another chance. I took this as a free pass that helped me to keep interviewing with this FAANG company
 more relaxed. I had nothing to loose, and that mentality helped me to better perform in what was coming next.
 
+## Show time
+
+Everything that happened before this point was just preparation. We've done our homework, we practiced a lot,
+we executed our ritual to put our mind into a known happy place. Now it's showtime.
+
+We know how this is going to be because we have done it many times already. We have a post-it in our desk
+reminding us about the [REACTO approach](#REACTO). Now we need to go with the flow but things will
+not be exactly the same as in our practice sessions. There is now a human (or maybe two) on the other side
+listening to everything we say.
+
+### Have a dialog
+
+Because they cannot read our minds, their only input is what we say and what we code. And because we don't want
+to code things we haven't agreed with them, we need to start talking. I always love to start the interview by 
+saying "I'm going to start thinking outloud now so I will probably say things that are absolutely wrong".
+
+Remember that if they do their job correctly, your interviewer is there to make you shine. Their job is
+to help you to perform at your highest level. They should be trying to calm you down, even play some jokes
+to break the tension.
+
+The best interviews I ever had never actually felt like an interview. It was just me and a random person I've
+never met talking about algorithms, data-structures and code in a very relaxed environment.
+
+I think it's perfectly fine to ask things like: 
+
+- "What do you think about this approach?"
+- "Where do you think the bug might be?"
+- "I don't like this part of the solution, do you have any idea about how can we improve this?"
+
+But beware, even if it looks like a friendly co-op exercise they are evaluating you. So don't pull to hard.
+They are there to help you but you must do the heavy-lifting. If you request too many hints then
+it's a bad sign for the interviewer as you are not autonomous enough and require more handholding than they would like to see.
+
+### Pick up the hints
+
+During the interview it's extremely common that at some point if you are a bit stuck, the interviewer
+is going to throw you a hidden hint. They are never going to say "do this", but they have already
+seen a thousand different ways of solving this problem during previous interviews. So if they suggest something,
+they are very likely trying to nudge you into a particular direction. 
+
+Listen to them, they want you to succeed. Your first instict is (sadly) going to be something like "They are trying to
+make me fall into their trap by suggesting a wrong approach but I'm smarter than them". It's a possibility indeed, 
+but unlikely. I would suggest you to explore the path they are showing you. Remember: They want you to succeed.
+
+I also being on the other side of the table and I know how frustrating it's to see a candidate struggling,
+throwing them a hint and them being unreceptive and so focused on making their current approach to work.
+You want to work with people that are open to ideas that are not their own. So picking up the hint is good 
+for 2 reasons:
+
+- Allows you to move forward towards a solution.
+- Shows that you are someone who listens and is open to new ideas.

@@ -13,18 +13,6 @@ toc_icon: code
 toc_sticky: true
 ---
 
-- Listen to your interviewer, pick up the hints.
-- start with easy
-
-Some resources that really helped me:
-- [System Design Interview – An insider's guide](https://www.amazon.com/System-Design-Interview-insiders-Second/dp/B08CMF2CQF) is a fantastic source of examples for preparing the SD interview. 
-- An interviewer at FAANG recommended me the following course: [Grokking the system design interview](https://www.educative.io/courses/grokking-the-system-design-interview). I personally haven't used it but heard amazing things about it.
-- A few YouTube channels that I recommend:
-    - [SystemDesignInterview](https://www.youtube.com/c/SystemDesignInterview/)
-    - [Code Karle](https://www.youtube.com/c/codeKarle)
-    - [Gaurav Sen](https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw)
-    - [Tech Dummies Narendra L](https://www.youtube.com/channel/UCn1XnDWhsLS5URXTi5wtFTA)
-    - [Hussein Nasser](https://www.youtube.com/user/GISIGeometry)
 
 # About coding interviews
 
@@ -43,95 +31,108 @@ StackOverflow's co-founder [Joel Spolsky says](https://www.joelonsoftware.com/20
 The coding interview checks those boxes. That's why your interviewer will most likely clarify at the beginning of the session that
 they want to see running code. No pseudo-code but actual code.
 
-I also think that it's an extremely efficient process and to ilustrate that I will now compare it against the other 
+I also think that it's an extremely efficient process and to illustrate that I will now compare it against the other 
 most used or suggested alternative on the market.
 
 ## Take-home assignments
 
-What other tools do companies have for evaluating a candidate's skills? A take-home assigment sounds like a reasonable thing to do.
-You remove the stress and pressure for the candidate to think, code and explain all at the same time. Specially when
+Which other tools do companies have for evaluating a candidate's skills? A take-home assignment sounds like a reasonable thing to do.
+You remove the stress and pressure for the candidate to think, code, and explain all at the same time. Specially when
 asking him to solve a kind of problem which is miles away from anything they have done during their entire career.
-This is also why people fresh out of university do better in coding interviews than more mature senior engineers.
-If you took your CS courses a few months ago, then you are most likely to remember how to do a in-order transversal on a binary
-tree compared to someone who has been shipping production quality software and providing support for the last 3 years.
+That's one of the reasons why people fresh out of university do better in coding interviews compared to more mature senior engineers.
+If you took your CS courses a few months ago then it's more likely for you to remember how to write an in-order transversal on a binary
+tree compared to someone who has been shipping production-quality software and providing operational support for the last five years.
 
-But then the problems arise. Companies realize that asking a candidate to invest 8 to 10 hours of their personal time on solving 
-a problem at home is a lot. Most people can't even afford to do that as their have other commitments such as 
+Wait a minute as knoewledge assesment is only one aspect of interviewing. Companies realize that asking a candidate to invest 8 to 10 hours of their time 
+on solving a problem at home is a lot. Most people can't even afford to do that as they have other commitments such as 
 their current job or even more important than that: Their own family.
 
 Even if the company states that "it should only take around 3 hours", we all know that everybody is going 
-to spend much more time than that. It's obvious that we all want to give our best in order to maximize our chances of being accepted 
-(or minimize chances of rejection).
+to spend much more time than that. We all want to give our best to maximize our chances of being accepted 
+(or minimize chances of rejection). So working a bit of extra time to show what we are capables of doesn't sound like a crazy idea.
+If I'm already putting my time into this process then I'm better doing it the way I think it should be done.
+Production-quality code is documented code with full (or at least decent) test coverage.
 
-If I'm putting my time into this then I'm doing it as it should be done. 
-Production quality as we say in the industry, documented code with a full test suite.
-No one wants to submit a crappy assignment as that would be the same as putting on your LinkedIn: "I'm a crappy engineer".
+No one wants to submit a crappy assignment as that would be the same as putting on your LinkedIn: "I'm a subpar engineer".
 
-But this is not the end of the story because then if the company was lucky enough to receive an assingment instead of being ghosted
-by the candidante, then and only then they need to find potentially 2 reviewers (you don't want to rely on the biases of only one person, do you?).
-Reviewers must review the code, reason about the logic (you would be surprised about what candidates submit), write comments about what 
-do they don't like about it because you have to provide feedback. Even if you are 100% sure it's a no-go after reading the first 5 lines of code, you still have to provide feedback.
+This is not the end of the story because then if the company was lucky enough to receive an assignment instead of being ghosted
+by the candidate, then and only then company needs to find two reviewers (you don't want to rely on the biases of only one person, do you?).
+Reviewers also have to put their fair amount of work. They must review the code, reason about the logic (you would be surprised about what candidates might submit), 
+and write comments about the things they don't like because you have to provide feedback. 
+Even if you are 100% sure it's a no-go after reading the first five lines of code, you still have to provide feedback.
 
-It looks really bad for the company if a candidate spent several hours of their time working on 
+It looks terrible if a candidate spent several hours working on 
 your assignment and then you just email them a message saying only: <span style="color:red">**REJECTED**</span>.
+You want your candidates to think positive about your company even if they cannot meet the quality bar yet. They might
+apply again in the future or talk about their experience at your company with their coleagues. You want them to love your company.
 
-Overall the process is much slower due it's async nature. The candidate needs to find a moment of their week where they have X hours 
-available to focus on the task which will probably happen during the weekend. Then the interviewers need to find a moment on their week
-to stop doing any other task and review the assigment (which might happen at different times for the different reviewers). Then reviewers
-need to come together to agree on a yay/nay decision. And only then recruiter can submit feedback and decide to move forward or not.
+Overall the process is much slower due its async nature. The candidate needs to find a moment of their week where they 
+can afford to spend some consecutive hours focusing on the task which will probably happen during the weekend. 
+Then reviewers need to find a moment on their week to stop doing any other task and review the code (which might happen at different times for the different reviewers). 
+Then they need to come together to agree on a yay/nay decision. And only then the recruiter can decide to move forward or not
+attaching the given feedback.
 
-Now compare this approach against a one hour synchronous session between a candidate and interviewers where they can not only asses (maybe suboptimally)
-the candidate's skills but also their communication style and interpersonal skills.
+Now compare this approach against a one-hour synchronous session between candidates and interviewers. Sessions where not only the candidate's skills 
+can be assesed (maybe suboptimally) but also their communication style and interpersonal skills.
 
 Pros:
-- Better assesment of candidate skills on a real work environment
+- Better assessment of candidate skills on an scenario closer to the real work environment
 
 Cons:
 - Takes more time for the candidate to complete
 - Takes more time for the interviewers to review
+- Interviewers can only review real code properly in the technologies they are profficient.
 - Overall slower due to synchronization overhead
-- Impossible to asses soft-skills
-- Easier to cheat
+- It's impossible to asses soft-skills
+- It's easier to cheat
+
+See? Companies are not evil, they just care for efficiency. This is not a silver bullet and I'm not against assingments, 
+but after doing this extensive comparision I find coding interviews as a reasonable trade-off to make.
 
 ## Get the ball rolling
 
-Before introducing the solution let me first present the problem. The way I started preparing for my coding interview
-was suboptimal. Now I obviously see that but at that time it made sense as I needed to get the ball rolling somehow.
+Before introducing a solution let me first present the problem. The way I started preparing for my coding interview
+was suboptimal. I needed to stop procrastinating and start somehow. Never let perfect be the enemy of good.
 
-It takes courage to break status quo and start an endeavour to advance your career. You know that failing is not only
-a possibility but it's likely to happen. The good thing is that you only have to succeed once to be succesful, you can (and you should) 
-fail as many times as you want until you find that one company that you like and they like you.
+It takes courage to break the status-quo and start an endeavor to advance your career. Specially if you are pretty comfortable at 
+your current job as I was. It's a hard decision that you can delay forever but not without consequences.
 
-Big tech is conservative for a good reason, they will only extend you an offer if they are pretty confident you are a fit for them.
-It's a waste of time and resources to hire the wrong person for the job.
+You know that failing is not only a possibility but it's likely to happen. The good thing is that you only have to succeed once 
+during your job search to be successful. You can (and you should) fail as many times as you want 
+until you find that one company that likes you and you like them.
+
+This time I had very clear what I wanted (or at least that's what I thought at that time) for my career. I wanted to join [Big Tech](https://en.wikipedia.org/wiki/Big_Tech).
+The problem for me is that Big Tech is really conservative and for a good reason. They will only extend you an offer if they are pretty confident you are an absolute fit.
+It's a waste of time and resources for them to hire the wrong person for the job. You can argue that this is the case for every single company
+but smaller companies are more willing to take bets on people. You can find more about that here 👇
 
 {% include video id="cQVFYVMhPlw" provider="youtube" %}
 
-I promised to myself multiple times that I would start preparing for the interviews but nothing ever happened.
-If you wait for the perfect setup then you are going to be waiting for a long time and maybe even forever.
+I had promised myself multiple times that I would start preparing for the interviews right away but that never happened.
+If you wait until you find the perfect setup then you are going to be waiting for a long time. Maybe even forever.
 
-So I got started on the path of least resistance using the tools I was familiar with. I created a project in my own IDE
+So I got started on the path of least resistance using the tools I was already familiar with. I created a project inside my own IDE
 and took some problems from the famous book [Cracking the coding interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850).
-The problem with using my own IDE was that the IDE is really good. Seriously, modern IDEs are the training wheels of your bike.
-Your IDE is so good (which is great for your day to day programming) that makes practicing hard as it helps you a lot without you even knowing.
-You want to get back to basics.
+The downside of using my own IDE is that IDEs nowadays are amazing pieces of software.
+Your IDE is so freaking good (which is great for your being efficient at your job) that makes practicing quite hard 
+as it helps you a lot more than you know. You want to get back to basics.
 
-Then you have the time factor. Is used for each problem as much time as I have or needed which quickly proved to match Parkinson's law:
+Then you have the time factor. I used for each problem as much time as I had available or needed for figuring out an answer. That quickly proved to match Parkinson's law:
 
 > Work expands so as to fill the time available for its completion.
 >
 > -- <cite>Parkinson's law</cite>
 
-I started using a stopwatch but you can always pause that to take breaks and resume afterwards. Or sometimes I even forgot that the thing
-was running. I was measuring how long did it take for me to solve the challenge, but you want to do the other way around. You want
-to set a time limit (like what happens during an interview) and then do as much as you can as fast you can.
+I started using a stopwatch. However, you can always pause it to take breaks and resume afterwards or sometimes I even forgot that the thing
+was running at all. I was measuring how long did it take for me to solve a challenge where you want to do it the other way around. 
+You want to set a time limit (like what happens during an interview) and then do as much as you can as fast you can inside that time frame.
 
 
-I got frustated very quickly as I was trying to solve hard challenges from day one, which didn't help to keep my motivation high.
-We all know how binary search works, that's not a secret. Go ahead and code it. Can you do it in 2 minutes without doubting 
-and without introducing any bugs? That's the level you have to achieve in order to succeed. Because binary search is probably 
-going to be one tool you need to solve a bigger problem. Same with other algorithms such as BFS and DFS. You have to know them by
-heart so when time comes you are not spending brain power on the basic building blocks but on the big picture.
+Frustration arised very quickly as I was trying to (solve Hard challenges from day one)[#walk-before-you-can-run], which didn't help to keep my motivation high.
+It's not a secret to anybody how binary search works. Can you code it in 2 minutes without doubting?
+Can you do it confident that you are not introducing any bugs? That's the level you want to achieve in order to succeed. 
+Because binary search is only going to be a tool you need to solve a bigger problem. Same with other more complex algorithms such as BFS and DFS. 
+You have to know them by heart so when the time comes you are not spending brain power on the basic building blocks but the big picture.
 
 
 I was not enjoying the process and most important, I was not making progress at a good pace. It got me started which is crucial for
@@ -378,6 +379,37 @@ which state do they currently belong to.
 ![TODO](/assets/images/acing-the-software-engineering-interview/todo-redo-done.png)
 {: refdef}
 
+## Walk before you can run
+
+Leetcode problem's are categorized in 3 levels of difficulty:
+
+- ~~Easy~~ Medium
+- ~~Medium~~ Hard
+- ~~Hard~~ Impossible
+
+I started directly with Medium problems as this was not my first time preparing for interviews. Also, in the interview I expected to
+face Medium to Hard problems so Easy problems were not going to teach me anything useful for my preparation.
+
+As I'm writing this I'm thinking "How could I be so arrogant and stupid?". You live and you learn. Please do not repeat the same mistake
+as I did. When you are just starting Easy problems are actually going to be very challenging, don't feel dissapointed if you need an hour (or more)
+to solve one of those. Of course you are not going to achieve the best solution, that is 100% guaranteed. You solution is going to be
+very crappy and inefficient, but that's perfectly fine as you are going to check in the [discussion forum](#discussion-section-is-the-true-gold-mine)
+why the performance of your idea is so bad.
+
+Maybe your algorithm has the perfect time complexity but you concatenated lots of Strings and in Java that's terrible for performance. No problem,
+now you know something new. Next problem you are going to be repeat the same mistake.
+
+Start with easy and move to medium as easy problems start to look doable at first sight. 
+
+:warning: Beware of misclassification. Some easy problems should actually be medium so don't be surprised if you find an easy
+problem that's super tough to crack.
+
+A small note about hard problems. I haven't faced any during a real interview and I think it makes sense as those problems 
+are **really** hard while practicing at home without any pressure whatsoever. I would say impossible to solve during an interview.
+Solve the most famous ones like [N-Queens](https://leetcode.com/problems/n-queens/) or [Merge k sorted lists](https://leetcode.com/problems/merge-k-sorted-lists/) but don't obsess with them.
+You might think that you are not ready for the interviews because you don't know how to solve one particular problem that
+Google uses. If you reach that point, chances are that you are going to be just fine.
+
 # You are your worst enemy
 
 ## Screwing up my first big chance
@@ -589,13 +621,14 @@ listening to everything we say.
 
 ### Have a dialog
 
-Because they cannot read our minds, their only input is what we say and what we code. And because we don't want
-to code things we haven't agreed with them, we need to start talking. I always love to start the interview by 
-saying "I'm going to start thinking outloud now so I will probably say things that are absolutely wrong".
+Sadly (or maybe luckily) interviewers cannot read our minds, their only input is what we say and what we code. 
+And because we don't want to code things we haven't agreed with them, 
+we need to start talking. I always love to start the interview by 
+saying something like "I'm going to start thinking outloud now so I will probably say things that are absolutely wrong".
 
 Remember that if they do their job correctly, your interviewer is there to make you shine. Their job is
 to help you to perform at your highest level. They should be trying to calm you down, even play some jokes
-to break the tension.
+to break the tension in the air.
 
 The best interviews I ever had never actually felt like an interview. It was just me and a random person I've
 never met talking about algorithms, data-structures and code in a very relaxed environment.
@@ -606,25 +639,32 @@ I think it's perfectly fine to ask things like:
 - "Where do you think the bug might be?"
 - "I don't like this part of the solution, do you have any idea about how can we improve this?"
 
-But beware, even if it looks like a friendly co-op exercise they are evaluating you. So don't pull to hard.
-They are there to help you but you must do the heavy-lifting. If you request too many hints then
-it's a bad sign for the interviewer as you are not autonomous enough and require more handholding than they would like to see.
+But beware, even if it looks like a friendly co-op exercise they are still evaluating everything you say and do. So don't pull to hard.
+They are there to help you but you must do the heavy-lifting. If you request too many hints or ask too many question then
+it's a bad sign for them as you are not autonomous enough and you require more handholding than they would like to.
 
 ### Pick up the hints
 
 During the interview it's extremely common that at some point if you are a bit stuck, the interviewer
-is going to throw you a hidden hint. They are never going to say "do this", but they have already
-seen a thousand different ways of solving this problem during previous interviews. So if they suggest something,
-they are very likely trying to nudge you into a particular direction. 
+is going to let slip some sort of hint to help you move forward. They are never going to say "do this" but they have already
+seen a thousand different ways of solving this same problem on previous interviews. So if they suggest you something,
+they are very likely trying to nudge you into a particular direction for a good reason.
 
 Listen to them, they want you to succeed. Your first instict is (sadly) going to be something like "They are trying to
-make me fall into their trap by suggesting a wrong approach but I'm smarter than them". It's a possibility indeed, 
-but unlikely. I would suggest you to explore the path they are showing you. Remember: They want you to succeed.
+make me fall into a trap by suggesting the wrong approach. This is just another test!". It's a possibility indeed, 
+but very unlikely. I would suggest you to explore the path they are showing you. Remember, they want you to succeed.
 
-I also being on the other side of the table and I know how frustrating it's to see a candidate struggling,
-throwing them a hint and them being unreceptive and so focused on making their current approach to work.
-You want to work with people that are open to ideas that are not their own. So picking up the hint is good 
-for 2 reasons:
+I also been on the other side of the table and I know how frustrating it's to see a candidate struggling,
+throwing them a hint and them being unreceptive to other points of view. I know it's hard to open your mind
+and actually to what the other person is saying, specially during periods of high stress where your brain CPU is 
+busy working at 100% capacity to crack this problem.
+
+{:refdef: style="text-align: center;"}
+![Brain](/assets/images/acing-the-software-engineering-interview/brain.jpeg)
+{: refdef}
+
+You want to work with people whom are open to ideas that are not their own. So picking up the hint is good 
+for you due to two very different reasons:
 
 - Allows you to move forward towards a solution.
-- Shows that you are someone who listens and is open to new ideas.
+- Shows that you are someone who listens to their peers and is open to new ideas.

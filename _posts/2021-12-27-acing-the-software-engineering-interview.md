@@ -6,7 +6,7 @@ categories:
   - Software Engineering
 tags:
   - Interviewing
-  - Leetcode
+  - LeetCode
 toc: true
 toc_label: Acing the SWE interview
 toc_icon: code
@@ -91,18 +91,18 @@ but after doing this extensive comparision I find coding interviews as a reasona
 
 ## Get the ball rolling
 
-Before introducing a solution let me first present the problem. The way I started preparing for my coding interview
+Before introducing a solution it makes sense to first present the problem. The way I started preparing for my coding interview
 was suboptimal. I needed to stop procrastinating and start somehow. Never let perfect be the enemy of good.
 
 It takes courage to break the status-quo and start an endeavor to advance your career. Specially if you are pretty comfortable at 
 your current job as I was. It's a hard decision that you can delay forever but not without consequences.
 
 You know that failing is not only a possibility but it's likely to happen. The good thing is that you only have to succeed once 
-during your job search to be successful. You can (and you should) fail as many times as you want 
+during your job search to be succesful. You can (and you should) fail as many times as you want 
 until you find that one company that likes you and you like them.
 
-This time I had very clear what I wanted (or at least that's what I thought at that time) for my career. I wanted to join [Big Tech](https://en.wikipedia.org/wiki/Big_Tech).
-The problem for me is that Big Tech is really conservative and for a good reason. They will only extend you an offer if they are pretty confident you are an absolute fit.
+This time I had a very clear view on what I wanted (or at least that's what I thought at that time) for my career. I wanted to join [Big Tech](https://en.wikipedia.org/wiki/Big_Tech).
+The problem was that Big Tech is really conservative and for a good reason. Those large companiesonly extend offers if they are pretty confident the candidate is an absolute fit.
 It's a waste of time and resources for them to hire the wrong person for the job. You can argue that this is the case for every single company
 but smaller companies are more willing to take bets on people. You can find more about that here 👇
 
@@ -111,112 +111,113 @@ but smaller companies are more willing to take bets on people. You can find more
 I had promised myself multiple times that I would start preparing for the interviews right away but that never happened.
 If you wait until you find the perfect setup then you are going to be waiting for a long time. Maybe even forever.
 
-So I got started on the path of least resistance using the tools I was already familiar with. I created a project inside my own IDE
-and took some problems from the famous book [Cracking the coding interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850).
-The downside of using my own IDE is that IDEs nowadays are amazing pieces of software.
-Your IDE is so freaking good (which is great for your being efficient at your job) that makes practicing quite hard 
+So I got started on the path of least resistance using the tools I was already comfortable with. I created a project inside my own IDE
+and took some random problems from the famous book [Cracking the coding interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850).
+The downside of using my IDE is that modern IDEs are amazing pieces of software.
+Your IDE is so freaking good (which is great for your overall efficiency at normal circumstances) that makes practicing quite hard 
 as it helps you a lot more than you know. You want to get back to basics.
 
-Then you have the time factor. I used for each problem as much time as I had available or needed for figuring out an answer. That quickly proved to match Parkinson's law:
+Then you have the consider the time factor. I allocated for each problem as much time as I had or needed for figuring out an answer. 
+This approach quickly confirmed Parkinson's law:
 
 > Work expands so as to fill the time available for its completion.
 >
 > -- <cite>Parkinson's law</cite>
 
-I started using a stopwatch. However, you can always pause it to take breaks and resume afterwards or sometimes I even forgot that the thing
-was running at all. I was measuring how long did it take for me to solve a challenge where you want to do it the other way around. 
-You want to set a time limit (like what happens during an interview) and then do as much as you can as fast you can inside that time frame.
+I started using a stopwatch. However, you can always pause it to take breaks and resume afterwards. Sometimes I even forgot that the thing
+was running at all. I was measuring how long did it take me to solve a single problem. What you are actually after is how much progress can you achieve in a fixed amount of time.
+You want to set a time limit (like what happens during interviews) and then do as much as you can as fast you can inside that time frame.
 
 
-Frustration arised very quickly as I was trying to (solve Hard challenges from day one)[#walk-before-you-can-run], which didn't help to keep my motivation high.
-It's not a secret to anybody how binary search works. Can you code it in 2 minutes without doubting?
-Can you do it confident that you are not introducing any bugs? That's the level you want to achieve in order to succeed. 
-Because binary search is only going to be a tool you need to solve a bigger problem. Same with other more complex algorithms such as BFS and DFS. 
-You have to know them by heart so when the time comes you are not spending brain power on the basic building blocks but the big picture.
+Frustration arised very quickly as I was trying to (solve Hard problems from day one)[#walk-before-you-can-run]. 
+It definitely didn't help to keep my motivation high. It's not secret to anybody how binary search works. Can you code it in 2 minutes without doubting?
+Can you do it confidently without introducing any bugs? That's the level you want to achieve to succeed. 
+Because binary-search is only going to be a tool you need to solve a bigger nastier problem. Same idea with other more complex algorithms such as BFS and DFS. 
+You have to know them by heart, so when time comes you are not spending brain power on the basic building blocks but the big picture.
+
+I was not enjoying the process and most importantly, I was not making progress at good speed. It got me started which is crucial for
+accomplishing any goal. Now after one month it was time for taking it to the next level. Something had to change.
 
 
-I was not enjoying the process and most important, I was not making progress at a good pace. It got me started which is crucial for
-accomplishing any goal you might have but now after one month it was time for taking it to the next level. Something had to change.
+# LeetCode
+By far the single most valuable tool I used during the entire preparation process. Works great out of the box but if you want to get t
+he best out of it you need to use it wisely. Optimizing your learning process is key for fast improvement. Learn how to learn.
 
-
-# Leetcode
-This was by far the single most useful tool I used during my preparation process, but in order to get the best out of it
-you need to use it wisely. I will share some tips about how can you optimize your learning process, basically all the 
-mistakes I made and you can avoid.
-
-But first, why Leetcode?
+But first, why LeetCode?
 
 ## As real as it gets
 
-Leetcode provides a plain text environment with no autocompletion (only syntax highlighting).
-I have to admit it, my first time using Leetcode I couldn't even write a simple for-loop in Java. 
-I was so depended on IntelliJ features that even the most simple syntax felt weird to type. 
-It's what it is. This is how are you going to be evaluated, so better to be comfortable in that same kind of environment.
+LeetCode provides a plain text environment with no autocompletion (only syntax highlighting).
+I have to admit it, my first time using the platform I couldn't even write a simple for-loop in Java. 
+Typing even the most simple syntax without automcompletion felt so unnatural.
+It's what it is. No secret here, you need to get used to it. This is how you are going to be evaluated, 
+so better to be comfortable in that same kind of environment.
 
-Your brain is so used to your IDE features that you don't even know you are using them until you don't have them anymore.
-You have to learn the basics again. Debugger? Forget about it, here we think hard and use strategic prints to understand what's going on.
+Your brain is so used to using IDE features that you don't even know you are using them until you don't have them anymore.
+You have to learn the basics again. Using breakpoints? Forget about it, here we think hard and use strategic prints to understand what's going on.
 
 {:refdef: style="text-align: center;"}
 ![Blind](/assets/images/acing-the-software-engineering-interview/Blind.jpeg)
 {: refdef}
 
 
-You will have to know the APIs available in your language of choice. I became really comfortable using things I never used
-at my job like `Arrays.deepToString` or doing bit-shifting operations.
+You will have to know the APIs available in your language of choice. I became genuinely comfortable using things I had never used
+at my job like `Arrays.deepToString` or doing bit-shifting operations. It was unnatural until it wasn't.
 
-⚠️ Your interviewer doesn't expect you to know absolutely everything. Everybody allowed me to google something if I needed to (of course you should
-ask first if it's fine to do so).
-Knowing these things by heart allows you to think so much faster as you don't need to 
-worry about small details such as how do I print an `int[][]` or the API for defining a custom `Comparator`. 
-Also, you have bigger problems to solve during the interview than fighting against the language you have chosen, 
-so showing proficiency there definitely helps. Maybe it doesn't impress your interviewer that you know your language
-inside out but it definitely provides a poor image if you have to google the basics.
+⚠️ Your interviewer doesn't expect you to know absolutely everything by heart. Everybody allowed me to google something if needed.
+Of course you should ask them first if it's acceptable to do so.
+Knowing APIs by heart allows you to think so much faster as you don't need to 
+worry about details such as how to print an `int[][]` or the syntax for defining a custom `Comparator`. 
+You have larger problems to solve during the interview than fighting against the language you have chosen. 
+Showing proficiency there definitely helps. Maybe it doesn't impress your interviewer that you know your language
+inside out but it projects a poor image of yourself if you have to google the basics.
 
-## Mock assesments
+## Mock assessments
 
-This is a premium feature  but one that makes going premium definitely worth it. With this interviewing mode you get
-some configurable amount of exercises and a fixed amount of time for solving them. 
+It's a premium feature but one that makes going premium definitely worth it. With this _interviewing mode_ you get
+a configurable amount of random exercises to solve in a fixed amount of time.
 
 {:refdef: style="text-align: center;"}
 ![assesment](/assets/images/acing-the-software-engineering-interview/assesment.png)
 {: refdef}
 
 
-Once you start there is no coming back. No pause, no bathroom break, no choosing the category or difficulty of the exercise. 
-Just like a real interview would be. You want to expose yourself to thinking under pressure as much as possible. 
-You can be a genious coming with elegant efficient solutions but if you can't do that on 30 minutes then you will fail the interview.
+Once you click the start button, there is no coming back. No pause, no bathroom break, no choosing the category or difficulty of the problems. 
+Exactly as real interview would be. You want to (expose yourself)[#exposure-therapy] to thinking under pressure as much as possible. 
+You can be a genius who designs elegant solutions but if you can't do that in 30 minutes then you will most 
+likely fail.
 
-After time is finished, you get a report evaluating your performance against other candidates.
-
-{:refdef: style="text-align: center;"}
-![report](/assets/images/acing-the-software-engineering-interview/Leetcode-report.png)
-{: refdef}
-
-It also shows you an overview on the different areas you should focus for improvement.
+Once you've finished, you will receive a report with an evaluation of your performance compared to other candidates.
 
 {:refdef: style="text-align: center;"}
-![overview](/assets/images/acing-the-software-engineering-interview/Leetcode-overview.png)
+![report](/assets/images/acing-the-software-engineering-interview/LeetCode-report.png)
 {: refdef}
 
-:warning: Don't be distracted by those scores if you are doing this (and most people are) as preparation for interviewing.
-The score is gauged against time complexity and memory usage but it doesn't take readability into account. Sometimes
-the most efficient solution is the hardest to read, understand or debug. Your interviewer is evaluating you on those topics as well
-even if they are not judged by the Leetcode reporter. That doesn't mean they will be satisfied with a brute-force solution that's 
-readable, but I guess you get the point.
+It also shows you an overview of your performance accross different areas and a nudge about where you should be focusing on.
+
+{:refdef: style="text-align: center;"}
+![overview](/assets/images/acing-the-software-engineering-interview/LeetCode-overview.png)
+{: refdef}
+
+:warning: Don't be too distracted by those scores if you are using LeetCode (and most people are) as preparation for interviewing.
+The score is derived from the time complexity and memory usage of your solution. However, it will never take readability into account. Sometimes
+the most efficient solution is the hardest to read, understand, extend or debug. You are being judged on those topics as well
+even if they are not mentioned in the report. That doesn't mean interviewers will be satisfied with a readable brute-force solution but you get the point.
 
 ## Think and only then act
 
-This is about impulse control. When you have been coding for 15 minutes and feel that you finished your algorithm, the immediate
-urge is to hit the **RUN** button and expect to see that magic green text that says <span style="color:green">**SUCCESS**</span>. Don't.
+Impulse control is everything. When you have been coding non-stop for 15 minutes and feel that you've finished your algorithm, the immediate
+urge is to hit the **RUN** button and expect to see that magic text saying <span style="color:green">**SUCCESS**</span>. Don't.
 
-Once you finish your code you need to review it again.
+Once you've finished your coding you need to review the changes. Then review them again.
 
-When you click **RUN** and you get a dissapointing <span style="color:red">**FAILURE**</span> result, 
-you feel the urge to quickly fix the obvious (best case scenario) issue and hit run again. 
+If you click **RUN** and get a dissappointing <span style="color:red">**FAILURE**</span> result, 
+you will feel the natural urge of immediately fixing the obvious (best case scenario) bug and submitting again as fast as possible. 
 
-Most of the times, you will find that there was not only one error but many other hidden in your code waiting for this moment.
-Every time something fails, take your time to analyze the problem. Not only the line that fail, but the entire code again. 
-If you missed that one thing, how do you know that you haven't missed many others like that one?
+I'm not a fortune-teller but I'm quite confident that regularly you will find that many other bugs were hidding in your code 
+waiting their chance to suckerpunch you.
+When something fails, take your time to analyze the problem and understand what happened. Not only the line that failed but the entire code again. 
+If you missed that one single tiny thing, how can you be sure that you haven't missed many others like that one?
 
 {:refdef: style="text-align: center;"}
 ![Blind](/assets/images/acing-the-software-engineering-interview/stop-think-act.jpeg)
@@ -224,32 +225,34 @@ If you missed that one thing, how do you know that you haven't missed many other
 
 Your interviewers are going to judge what kind of programmer you are:
 
-- Are you someone who stops and calmly thinks if there is more than meets the eye? Someone that carefully checks again 
-the code to understand what went wrong.
+- Are you someone who stops to calmly think if there is more than meets the eye? Someone that carefully checks the code 
+to understand what went wrong.
 
-- Are you a hack-and-slash programmer? Someone who tries to duck tape the error adding another if statement, hitting run without
-thinking and praying that this time all the test cases are green.
+- Are you a hack-and-slash programmer? Someone who tries to duck tape the error by adding another if statement, submitting without
+thinking and praying that this time all the test cases are 💚.
 
-This is also a valuable advise for your career. Every time I send a pull-request I look at the same piece of code 
-3 different times using 3 different diff tools. Most of the times I look at the code again
- I find something I've missed in the previous self-review round.
+This is also valuable advice for your career. Every time I have to send a pull-request, I look at the same piece of code 
+three different times using three different diff tools. More often than I would like to admit, I end up finding something 
+I've missed in the previous self-review round.
 
-If I didn't control the urge to click **SUBMIT** and call it for the day, then I would be abusing my reviewer's time. 
-They would have to flag all the issues that I could have fixed on my own if I had been a bit more careful and less impulsive.
+If you don't restrain that urge of clicking **SUBMIT** and calling it for the day then you are abusing your reviewer's time.
+They will have to flag all the issues that you could have fixed on your own if you had been a little bit more careful with your work.
 
 ## Free vs Premium
 
-I started with a free subscription and I think everybody should start the same way. Free version is more than enough to
-get you started. You can only take true advantage of the premium features once have solved a large amount of the basic easy problems the platforms provides.
+I started with a free subscription and I think everybody should do the same. That is more than enough to
+get you started. One can only take true advantage of the premium features once you've solved a large amount of the basic problems offered by the platform.
+I'm sorry but money can't accelerate your learning at the beginning.
 
-After one month of using it 2 hours a day every single day (not exaggerating), I finally
-decided to **invest** 35 USD (~30 euros) to get the best out of my time. 
+After one month of using it 2 hours a day monday to monday I finally decided to **invest** 35 USD (~30 euros) to get the best out of my time. 
 I reasoned the cost was 1 euro per day which is close to nothing as I only planned to use it until I landed the job of my dreams.
-Hopefully that was not going to take forever, but I had no pressure to change jobs quickly. My focus was on finding the
-best opportunity for my career and in order to get an offer from those companies I to master my coding skills. Leetcode was
-going to help me do that, and if Premium features improved my prepartion even a slightly bit then it was already worth it.
 
-Premium give you access to features like (sorted by importance for me):
+Hopefully, the search was not going to take me forever although I had no pressure to change jobs quickly. 
+
+My focus was on finding the best opportunity for my career and to get that I had to first master my coding skills. LeetCode free version had
+demostrated to be an useful ally in that journey. If Premium features improved my preparation even a slightly then it was already a worthy investment.
+
+Premium gives you access to features like (sorted by importance for me):
 - Premium questions
 - Select questions by company
 - [Timed assesments](#timed-assesments)
@@ -259,9 +262,9 @@ Premium give you access to features like (sorted by importance for me):
 - Official solutions
 - Explore cards
 
-Is it really neccesary? I guess not. Does it help a lot? Hell yeah! This is probably the investment with higest ROI your are going to
-make in your life. 35 USD can seem like a lot or not depending on where do you live, but if those 35 USD help you landing a better job 
-(and most likely a better offer that can potentially be thousands of dollars more per year) then it's a price worth paying.
+Is it absolutely necessary? I guess not. Does it help a lot? Hell yeah! Likely the investment with the highest ROI you are going to
+make in your life. $35 can be neglegible or not depending on where you live. But if LeetCode Premium helps you landing a better offer 
+that gets you extra money per year then it will pay by itself very quickly.
 
 ## Discussion section is the true gold mine
 After solving a problem (even with a terrible brute force solution) you **must** enter the discussion forum of that particular challenge.
@@ -276,7 +279,7 @@ can reallistically come up with it during an interview unless they've seen it be
 That's fine, no expects you to come up with that during an interview anyway. 
 But reading, thinking and understanding those solutions will expand your horizon about how problems 
 can be solved. You most probably can use one of those ideas in another exercise because at some point [all the problems start to look similar to
-another one you already solved](#leetcode-templates).
+another one you already solved](#leetCode-templates).
 
 I tried to contribute to the discussion section as much as I could. Answering questions, upvoting good solutions and even posting my own solution.
 Sometimes the core logic of my code was the same as another existing solution, but I considered posting like submitting a pull-request at work. 
@@ -290,7 +293,7 @@ that I cannot explain it in a simple way. Only then I see that I didn't fully ge
 >
 > -- <cite>The Feynman Technique.</cite>
 
-## Leetcode templates
+## LeetCode templates
 The more problems you solve, the more you start seeing the patterns that tie all of them together underneath. 
 There are thousands of different problems but only a handful of patterns.
 Sometimes the pattern is hidden and it's up to you to uncover it. What do I mean by _hidden_? 
@@ -320,10 +323,10 @@ When I say _patterns_ I'm not talking about the categories you might be thinking
 - Linked lists
 
 Those are more like the general topics for the questions. The patterns are the techniques used for solving particular problems such as:
-- Using a [sliding window](https://medium.com/leetcode-patterns/leetcode-pattern-2-sliding-windows-for-strings-e19af105316b) on an array (or a String, which is just an array of characters).
+- Using a [sliding window](https://medium.com/leetCode-patterns/leetCode-pattern-2-sliding-windows-for-strings-e19af105316b) on an array (or a String, which is just an array of characters).
 - Using [fast and slow pointers](https://en.wikipedia.org/wiki/Cycle_detection#:~:text=Floyd's%20cycle%2Dfinding%20algorithm%20is,The%20Tortoise%20and%20the%20Hare.) on a linked structure.
-- Using [binary search to solve minimization problems](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems).
-- Using [multiple data-structures](https://leetcode.com/problems/lru-cache/) for overcoming performance limitations of a single data-structure.
+- Using [binary search to solve minimization problems](https://leetCode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems).
+- Using [multiple data-structures](https://leetCode.com/problems/lru-cache/) for overcoming performance limitations of a single data-structure.
 
 Once you understand the pattern, you have a powerful tool in your belt for solving any problem similar to that one. Which is much more 
 useful than just hard-coding a trick in your brain for one specific problem.
@@ -345,7 +348,7 @@ Am I getting dumber with time?
 
 Something had to change, my approach was not working at all if I was not able to solve previously solved exercises. Some exercises
 are just much harder than others, and it's perfectly fine to check for the answer if you are not able to solve it. No one has enough
-time to spend a week on one single really hard problem which solution might be an [obscure algorithm](https://pablomusumeci.github.io/leetcode/count-bits/#brian-kernighans-algorithm) that either you know it or not. Only geniouses can come up with those algorithms by themselves (and probably not during an interview)
+time to spend a week on one single really hard problem which solution might be an [obscure algorithm](https://pablomusumeci.github.io/leetCode/count-bits/#brian-kernighans-algorithm) that either you know it or not. Only geniouses can come up with those algorithms by themselves (and probably not during an interview)
 and I'm not one of those. I'm just a normal guy.
 
 Checking the solution right away is also not the answer. You need to think hard for at least an hour I would say, so when you read and try
@@ -372,7 +375,7 @@ Let's move it to the *REDO* list and take another look after a few days when the
 You will be exposed to less exercises if you do this. But the ones you have seen you can be damn sure
 that you understand them inside out. Less is more here.
 
-Luckily Leetcode allows you to create your own lists of exercises, so you can use that to keep track of
+Luckily LeetCode allows you to create your own lists of exercises, so you can use that to keep track of
 which state do they currently belong to.
 
 {:refdef: style="text-align: center;"}
@@ -381,7 +384,7 @@ which state do they currently belong to.
 
 ## Walk before you can run
 
-Leetcode problem's are categorized in 3 levels of difficulty:
+LeetCode problem's are categorized in 3 levels of difficulty:
 
 - ~~Easy~~ Medium
 - ~~Medium~~ Hard
@@ -406,7 +409,7 @@ problem that's super tough to crack.
 
 A small note about hard problems. I haven't faced any during a real interview and I think it makes sense as those problems 
 are **really** hard while practicing at home without any pressure whatsoever. I would say impossible to solve during an interview.
-Solve the most famous ones like [N-Queens](https://leetcode.com/problems/n-queens/) or [Merge k sorted lists](https://leetcode.com/problems/merge-k-sorted-lists/) but don't obsess with them.
+Solve the most famous ones like [N-Queens](https://leetCode.com/problems/n-queens/) or [Merge k sorted lists](https://leetCode.com/problems/merge-k-sorted-lists/) but don't obsess with them.
 You might think that you are not ready for the interviews because you don't know how to solve one particular problem that
 Google uses. If you reach that point, chances are that you are going to be just fine.
 
@@ -488,7 +491,7 @@ Remember that your brain is still running that background thread which is trying
 > -- <cite>Your brain in background mode</cite>
 
 You need to keep buying your brain time, trusting that all those exercises you practiced before the interview and all the hours spent 
-at the Leetcode discussion forums will provide a starting point for a solution.
+at the LeetCode discussion forums will provide a starting point for a solution.
 
 {% include video id="DIR_rxusO8Q" provider="youtube" %}
 
@@ -576,7 +579,7 @@ the pressure of the game, you are not thinking about the fear of missing, you ar
 ### How does this apply to me?
 
 We are not basketball players, but we can benefit from taking our mind to a comfortable place before an stresful interview. We already did everything that 
-was in our power, we studied for countless hours, we've done hundreds of Leetcode challenges. 
+was in our power, we studied for countless hours, we've done hundreds of LeetCode challenges. 
 There is very little we can get by studying until the very last minute before the interview.
 
 It's better to use that time to relax (easy to say hard to do) so we can give our best performance during the interview. 

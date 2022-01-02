@@ -16,13 +16,25 @@ toc_sticky: true
 
 # About coding interviews
 
-## Does this even make sense?
+## My interviewing journey
+
+For the last three months I've been preparing myself for software interviews while also interviewing (ain't better preparation than real-world practice) hoping to find my dream job.
+Took me lots of hard-work but I can gladly announce that I finally found it. It was an amazing experience that teached me a lot.
+I not only learnt about programming but about enduring tough challenges and achieving what I thought was impossible when I started.
+I picked up how to prepare myself for performing under pressure like atlethes do. Become comfortable being uncomfortable.
+
+
+I wanted to extensively describe my experience while my memories are still fresh and thurstworthy. If this series of posts help at least one single person
+I will be more than satisfied with the outcome. If I was able to achieve this then anybody can, I have absolutely no doubts about that.
+Without further ado here we go.
+
+## Does this make any sense?
 
 I get it. This is not what we do in our jobs and that's why we need to prepare so much for interviewing. It's a complete different skill.
-Is it fair? Does it make sense? It's the game we have to play. Sometimes I wonder if companies do these interviews to just
-see who has a will strong enough to endure all this crazy preparation. That might be the real test, a test of character.
+Is it fair? Does it make sense? It's the game we have to play. Sometimes I wonder if companies do these crazy interviewing processes just to
+see who has a will strong enough to endure all the preparation required. That might be the real test, a test of character.
 
-StackOverflow's co-founder [Joel Spolsky says](https://www.joelonsoftware.com/2006/10/25/the-guerrilla-guide-to-interviewing-version-30/):
+StackOverflow's co-founder [Joel Spolsky says about hiring](https://www.joelonsoftware.com/2006/10/25/the-guerrilla-guide-to-interviewing-version-30/):
 
 > You’re looking for people who are smart and get things done.
 >
@@ -37,36 +49,38 @@ most used or suggested alternative on the market.
 ## Take-home assignments
 
 Which other tools do companies have for evaluating a candidate's skills? A take-home assignment sounds like a reasonable thing to do.
-You remove the stress and pressure for the candidate to think, code, and explain all at the same time. Specially when
+You remove the stress and pressure for the candidate to think, code, and explain all at the same time. 
+
+Specially when
 asking him to solve a kind of problem which is miles away from anything they have done during their entire career.
 That's one of the reasons why people fresh out of university do better in coding interviews compared to more mature senior engineers.
 If you took your CS courses a few months ago then it's more likely for you to remember how to write an in-order transversal on a binary
 tree compared to someone who has been shipping production-quality software and providing operational support for the last five years.
 
-Wait a minute as knoewledge assesment is only one aspect of interviewing. Companies realize that asking a candidate to invest 8 to 10 hours of their time 
+Knoewledge assesment is only one aspect of interviewing someone. Companies realize that asking a candidate to invest 8 to 10 hours of their time 
 on solving a problem at home is a lot. Most people can't even afford to do that as they have other commitments such as 
 their current job or even more important than that: Their own family.
 
-Even if the company states that "it should only take around 3 hours", we all know that everybody is going 
+Even if the company states that "it should only take around 3 hours" we all know that everybody is going 
 to spend much more time than that. We all want to give our best to maximize our chances of being accepted 
 (or minimize chances of rejection). So working a bit of extra time to show what we are capables of doesn't sound like a crazy idea.
 If I'm already putting my time into this process then I'm better doing it the way I think it should be done.
-Production-quality code is documented code with full (or at least decent) test coverage.
+Production-quality code is documented code with full (or at least a decent) test coverage.
+No one wants to submit a crappy assignment as that would be the same as putting on your LinkedIn jobtitle "Subpar engineer".
 
-No one wants to submit a crappy assignment as that would be the same as putting on your LinkedIn: "I'm a subpar engineer".
-
-This is not the end of the story because then if the company was lucky enough to receive an assignment instead of being ghosted
+This is also not the end of the story because then if the company was lucky enough to receive an assignment instead of being ghosted
 by the candidate, then and only then company needs to find two reviewers (you don't want to rely on the biases of only one person, do you?).
-Reviewers also have to put their fair amount of work. They must review the code, reason about the logic (you would be surprised about what candidates might submit), 
-and write comments about the things they don't like because you have to provide feedback. 
-Even if you are 100% sure it's a no-go after reading the first five lines of code, you still have to provide feedback.
+Reviewers also have to put a fair amount of work into this. They must review the code, reason about the logic (you would be surprised about what candidates might submit) 
+and write comments about the things they don't like as they have to provide feedback for the candidate.
 
+
+Even if they are 100% sure it's a no-go after reading the first five lines of code, they still have to provide feedback.
 It looks terrible if a candidate spent several hours working on 
 your assignment and then you just email them a message saying only: <span style="color:red">**REJECTED**</span>.
 You want your candidates to think positive about your company even if they cannot meet the quality bar yet. They might
 apply again in the future or talk about their experience at your company with their coleagues. You want them to love your company.
 
-Overall the process is much slower due its async nature. The candidate needs to find a moment of their week where they 
+Overall the process is much slower due its async nature. The candidate needs to find a moment of their time where they 
 can afford to spend some consecutive hours focusing on the task which will probably happen during the weekend. 
 Then reviewers need to find a moment on their week to stop doing any other task and review the code (which might happen at different times for the different reviewers). 
 Then they need to come together to agree on a yay/nay decision. And only then the recruiter can decide to move forward or not
@@ -81,18 +95,20 @@ Pros:
 Cons:
 - Takes more time for the candidate to complete
 - Takes more time for the interviewers to review
-- Interviewers can only review real code properly in the technologies they are profficient.
+- Interviewers can only review real code properly in the technologies they are profficient
 - Overall slower due to synchronization overhead
 - It's impossible to asses soft-skills
 - It's easier to cheat
 
 See? Companies are not evil, they just care for efficiency. This is not a silver bullet and I'm not against assingments, 
-but after doing this extensive comparision I find coding interviews as a reasonable trade-off to make.
+but after doing this extensive comparision I find coding interviews as a reasonable trade-off to make. Bad side is that
+you miss all the candidates that are amazing programmers but fail to perform in an unrealistic high pressure environment.
+Again, no silver bullet.
 
-## Get the ball rolling
+## Big Tech interviewing
 
 Before introducing a solution it makes sense to first present the problem. The way I started preparing for my coding interview
-was suboptimal. I needed to stop procrastinating and start somehow. Never let perfect be the enemy of good.
+was suboptimal. I needed to stop procrastinating and start somehow.
 
 It takes courage to break the status-quo and start an endeavor to advance your career. Specially if you are pretty comfortable at 
 your current job as I was. It's a hard decision that you can delay forever but not without consequences.
@@ -102,35 +118,37 @@ during your job search to be succesful. You can (and you should) fail as many ti
 until you find that one company that likes you and you like them.
 
 This time I had a very clear view on what I wanted (or at least that's what I thought at that time) for my career. I wanted to join [Big Tech](https://en.wikipedia.org/wiki/Big_Tech).
-The problem was that Big Tech is really conservative and for a good reason. Those large companiesonly extend offers if they are pretty confident the candidate is an absolute fit.
+The problem was that Big Tech is really conservative and for a good reason. Those large companies only extend offers if they are pretty confident the candidate is an absolute fit.
 It's a waste of time and resources for them to hire the wrong person for the job. You can argue that this is the case for every single company
 but smaller companies are more willing to take bets on people. You can find more about that here 👇
 
 {% include video id="cQVFYVMhPlw" provider="youtube" %}
 
+## Never let perfect be the enemy of good
+
 I had promised myself multiple times that I would start preparing for the interviews right away but that never happened.
 If you wait until you find the perfect setup then you are going to be waiting for a long time. Maybe even forever.
 
 So I got started on the path of least resistance using the tools I was already comfortable with. I created a project inside my own IDE
-and took some random problems from the famous book [Cracking the coding interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850).
+and used some random problems from the famous book [Cracking the coding interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850).
 The downside of using my IDE is that modern IDEs are amazing pieces of software.
 Your IDE is so freaking good (which is great for your overall efficiency at normal circumstances) that makes practicing quite hard 
 as it helps you a lot more than you know. You want to get back to basics.
 
-Then you have the consider the time factor. I allocated for each problem as much time as I had or needed for figuring out an answer. 
+It's also worth considering the time factor. I initially allocated for each problem as much time as I had or needed for figuring out an answer. 
 This approach quickly confirmed Parkinson's law:
 
 > Work expands so as to fill the time available for its completion.
 >
 > -- <cite>Parkinson's law</cite>
 
-I started using a stopwatch. However, you can always pause it to take breaks and resume afterwards. Sometimes I even forgot that the thing
+Then I started using a stopwatch. However, you can always pause it to take breaks and resume afterwards. Sometimes I even forgot that the thing
 was running at all. I was measuring how long did it take me to solve a single problem. What you are actually after is how much progress can you achieve in a fixed amount of time.
-You want to set a time limit (like what happens during interviews) and then do as much as you can as fast you can inside that time frame.
+You want to [set a time limit](#mock-assessments) (like what happens during interviews) and then do as much as you can as fast you can inside that time frame.
 
 
-Frustration arised very quickly as I was trying to (solve Hard problems from day one)[#walk-before-you-can-run]. 
-It definitely didn't help to keep my motivation high. It's not secret to anybody how binary search works. Can you code it in 2 minutes without doubting?
+Frustration arised very quickly as I was trying to [solve Hard problems from day one](#walk-before-you-can-run). 
+That definitely didn't help to keep my motivation high. It's not secret to anybody how binary search works. Can you code it in 2 minutes without doubting?
 Can you do it confidently without introducing any bugs? That's the level you want to achieve to succeed. 
 Because binary-search is only going to be a tool you need to solve a bigger nastier problem. Same idea with other more complex algorithms such as BFS and DFS. 
 You have to know them by heart, so when time comes you are not spending brain power on the basic building blocks but the big picture.
@@ -140,7 +158,7 @@ accomplishing any goal. Now after one month it was time for taking it to the nex
 
 
 # LeetCode
-By far the single most valuable tool I used during the entire preparation process. Works great out of the box but if you want to get t
+By far the single most valuable tool I used during the entire preparation process. Works great out of the box but if you want to get
 he best out of it you need to use it wisely. Optimizing your learning process is key for fast improvement. Learn how to learn.
 
 But first, why LeetCode?
@@ -149,11 +167,11 @@ But first, why LeetCode?
 
 LeetCode provides a plain text environment with no autocompletion (only syntax highlighting).
 I have to admit it, my first time using the platform I couldn't even write a simple for-loop in Java. 
-Typing even the most simple syntax without automcompletion felt so unnatural.
-It's what it is. No secret here, you need to get used to it. This is how you are going to be evaluated, 
+Typing even the most simple syntax without autocompletion felt so unnatural.
+It's what it is. No secret here, you need to get used to it. This is how you are going to be evaluated 
 so better to be comfortable in that same kind of environment.
 
-Your brain is so used to using IDE features that you don't even know you are using them until you don't have them anymore.
+Your brain is so used to using the IDE features that you don't even know you are using them until you don't have them anymore.
 You have to learn the basics again. Using breakpoints? Forget about it, here we think hard and use strategic prints to understand what's going on.
 
 {:refdef: style="text-align: center;"}
@@ -183,7 +201,7 @@ a configurable amount of random exercises to solve in a fixed amount of time.
 
 
 Once you click the start button, there is no coming back. No pause, no bathroom break, no choosing the category or difficulty of the problems. 
-Exactly as real interview would be. You want to (expose yourself)[#exposure-therapy] to thinking under pressure as much as possible. 
+Exactly as real interview would be. You want to [expose yourself](#exposure-therapy) to thinking under pressure as much as possible. 
 You can be a genius who designs elegant solutions but if you can't do that in 30 minutes then you will most 
 likely fail.
 
@@ -207,20 +225,20 @@ even if they are not mentioned in the report. That doesn't mean interviewers wil
 ## Think and only then act
 
 Impulse control is everything. When you have been coding non-stop for 15 minutes and feel that you've finished your algorithm, the immediate
-urge is to hit the **RUN** button and expect to see that magic text saying <span style="color:green">**SUCCESS**</span>. Don't.
+urge is to hit the **RUN** button and hope to see that magic text saying <span style="color:green">**SUCCESS**</span>. Don't.
 
 Once you've finished your coding you need to review the changes. Then review them again.
 
 If you click **RUN** and get a dissappointing <span style="color:red">**FAILURE**</span> result, 
 you will feel the natural urge of immediately fixing the obvious (best case scenario) bug and submitting again as fast as possible. 
 
-I'm not a fortune-teller but I'm quite confident that regularly you will find that many other bugs were hidding in your code 
-waiting their chance to suckerpunch you.
+I'm not a fortune-teller but I'm quite confident that regularly you will find many other bugs were hidding in your code 
+waiting for their chance to suckerpunch you.
 When something fails, take your time to analyze the problem and understand what happened. Not only the line that failed but the entire code again. 
-If you missed that one single tiny thing, how can you be sure that you haven't missed many others like that one?
+If you missed that one single tiny thing, how can you be sure that you haven't missed many others more?
 
 {:refdef: style="text-align: center;"}
-![Blind](/assets/images/acing-the-software-engineering-interview/stop-think-act.jpeg)
+![stop-think-act](/assets/images/acing-the-software-engineering-interview/stop-think-act.jpeg)
 {: refdef}
 
 Your interviewers are going to judge what kind of programmer you are:
@@ -228,7 +246,7 @@ Your interviewers are going to judge what kind of programmer you are:
 - Are you someone who stops to calmly think if there is more than meets the eye? Someone that carefully checks the code 
 to understand what went wrong.
 
-- Are you a hack-and-slash programmer? Someone who tries to duck tape the error by adding another if statement, submitting without
+- Are you a hack-and-slash programmer? Someone who tries to duck tape the error by adding yet another if statement, submitting without
 thinking and praying that this time all the test cases are 💚.
 
 This is also valuable advice for your career. Every time I have to send a pull-request, I look at the same piece of code 
@@ -248,7 +266,6 @@ After one month of using it 2 hours a day Monday to Sunday I finally decided to 
 I reasoned the cost was 1 euro per day which is close to nothing as I only planned to use it until I landed the job of my dreams.
 
 Hopefully, the search was not going to take me forever although I had no pressure to change jobs quickly. 
-
 My focus was on finding the best opportunity for my career and to get that I had become a master of my craft. LeetCode free version had
 demostrated to be a powerful ally on that journey. If Premium features improved my preparation even slightly then it was already a worthy investment.
 
@@ -258,7 +275,7 @@ Premium gives you access to features like (sorted by importance for me):
 - [Timed assesments](#timed-assesments)
 - Sorting questions by frequency
 - Autocompletion
-- No wait time for submissions
+- No waiting time between submissions
 - Official solutions
 - Explore cards
 
@@ -270,8 +287,7 @@ that gets you some extra money then it will pay by itself very quickly.
 After solving a problem (even through a terrible brute force solution) you **must** enter the discussion forum.
 Doing that is not optional because there is where the magic happens.
 
-In the discussion forum you will find that there were probably (at least) threw complete different ways of solving the problem.
-
+In the discussion forum you will find that there were probably (at least) three complete different ways of solving the problem.
 Different solutions with different trade-offs in terms of time and space complexity.
 Probably the most performant solution is an already existing algorithm or obscure technique that no one 
 can realistically come up with it during an interview unless they've seen it beforehand.
@@ -285,8 +301,8 @@ Sometimes the core logic of my code was the same as another solution but I consi
 
 It helped me to double-check my work and add comments to the non-straightforward parts of the code. Also forced myself to write a brief explanation of 
 how the algorithm works in plain English. I use the [Feynmann technique](https://fs.blog/feynman-technique/) for diving deep into
-my understanding of the solution. Sometimes I feel that I finally understood something and still I feel incapable of explaining it clearly.
-That's a reality check where I come clean with myself about how much do I actually comprehend.
+my understanding of the solution. Sometimes I feel that I finally understood something and still I felt incapable of explaining it clearly.
+That's a reality check where I come clean with myself about how much of the topic do I actually comprehend.
 
 > Now that you think you understand a topic reasonably well, explain it to a 12-year-old.
 >
@@ -295,65 +311,68 @@ That's a reality check where I come clean with myself about how much do I actual
 ## LeetCode templates
 The more problems you face, the more you start observing the hidden patterns that connect all of them together. 
 There are thousands of different problems but only a handful of patterns.
-Sometimes the pattern is hidden and it's up to you to uncover it. What do I mean by _hidden_? 
-There are problems that due to the way they are phrased or presented, it's much more obvious how they should be modeled. 
-If you think about cities and routes connecting those cities then it's intuitive to think about a graph where the cities are nodes
-and the routes are edges.
 
-But other times things are not that obvious. Imagine modeling the current state of a solution as a node in a graph, and permutations of
-that solution as other nodes connected to the original node. Like a state machine. There you can model it as a graph and use all the graph traversal algorithms
-to move between states and arrive to a solution. No idea what I'm talking about? No problem, it will all make sense at some point.
+Sometimes the pattern is hidden and it's up to you to uncover it. What do I mean by _hidden_? 
+The way a problem is presented can make more or less obvious how it should be modeled. 
+If you think about cities being connected by routes then it's intuitive to think about a graph where cities are nodes
+and routes are edges connecting nodes.
+
+Other times the representation of the solution space is not that obvious. In a finite state machine a given state is as a node in a graph and moving
+towards different solutions is just exploring the graph. All kinds of graph transversal algorithms can be used then.
+No idea what I'm talking about? No problem, it will all make sense at some point.
 
 {% include video id="wGbuCyNpxIg" provider="youtube" %}
 
-The key aspect of this is that solving as many problems as you can and hoping to face the a problem that you have already 
-solved is not a good strategy.
-There are so many different problems with so many different variations of it that even if you are lucky enough to face
-a problem you have already seen, chances are that you are not going to remember the _"trick"_ to solve it.
+It's fundamental to understand that solving as many problems as you can and hoping to face a known problem during the interview is a terrible strategy.
+There are so many different problems with so many different variations of them that even if you are lucky enough to face
+a problem you have already seen, chances are that you won't remember the _"trick"_ to solve it.
 
-Remembering tricks leads you nowhere. When the time comes, you are going to barely remember the solution. Or even worse, 
-you will remember half of it and are going to spend half of the interview trying to recall the missing details from your memory 
-as you go. You will end up stucked in a dead end. Your memory is only useful for the patterns, not individual problems.
+Remembering tricks leads you nowhere. When the time comes, you are barely going to remember the solution. Or even worse, 
+you will remember only half of it and are going to spend your energy trying to recall the missing details from your memory 
+as you go. You will end up in a dead end. Your memory is only useful for remembering the patterns, not the individual problems.
 
-When I say _patterns_ I'm not talking about the categories you might be thinking about. The following are not patterns:
+When I say _patterns_ I'm not talking about the problem's categories. The following aren't patterns:
 - Graphs transversals
 - Dynamic programming
 - Tree transversals
 - Linked lists
 
-Those are more like the general topics for the questions. The patterns are the techniques used for solving particular problems such as:
+Those are more like the general topics for the questions. The patterns are the techniques used for the solutions such as:
 - Using a [sliding window](https://medium.com/leetCode-patterns/leetCode-pattern-2-sliding-windows-for-strings-e19af105316b) on an array (or a String, which is just an array of characters).
 - Using [fast and slow pointers](https://en.wikipedia.org/wiki/Cycle_detection#:~:text=Floyd's%20cycle%2Dfinding%20algorithm%20is,The%20Tortoise%20and%20the%20Hare.) on a linked structure.
 - Using [binary search to solve minimization problems](https://leetCode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems).
-- Using [multiple data-structures](https://leetCode.com/problems/lru-cache/) for overcoming performance limitations of a single data-structure.
+- Using [multiple data-structures](https://leetCode.com/problems/lru-cache/) combined.
 
-Once you understand the pattern, you have a powerful tool in your belt for solving any problem similar to that one. Which is much more 
-useful than just hard-coding a trick in your brain for one specific problem.
+Once you understood the pattern you have a powerful tool in your belt for solving any problem similar to that one. Which is much more 
+useful than just hard-coding a trick that won't last long in your memory.
 
 ## TODO-REDO-DONE
 
-This was a game-changer for me and I stumbled on this idea just by chance. One day I had the crazy idea of re-doing an exercise 
-I had already solved. What a waste of time don't you think? If I was able to solving it in the past, I would for sure be able
-to solve it again. In fact, I should be able to solve it much quicker than before as I was already familiarized with both the problem
-and the solution.
+This was a game-changer for me discovered by pure serendipity. One day I had the crazy idea of re-doing an exercise 
+I had previously solved. What a waste of time don't you think? If I solved the problem in the past, I would for sure be able
+to do that again. In fact I should be able to solve it much quicker than before as I was already familiar with both problem
+and solution.
 
-I was extremely dissapointed when I just couldn't figure it out. Ok, maybe it was just bad luck. Let me try another one... the same.
-Am I getting dumber with time?
+Imagine my dissapointment when I couldn't figure it out. Ok, maybe it was just bad luck I thought. Let me try another one... same.
+Am I getting dumber?
 
 {:refdef: style="text-align: center;"}
 ![simpsons](/assets/images/acing-the-software-engineering-interview/simpsons.gif)
 {: refdef}
 
 
-Something had to change, my approach was not working at all if I was not able to solve previously solved exercises. Some exercises
-are just much harder than others, and it's perfectly fine to check for the answer if you are not able to solve it. No one has enough
-time to spend a week on one single really hard problem which solution might be an [obscure algorithm](https://pablomusumeci.github.io/leetCode/count-bits/#brian-kernighans-algorithm) that either you know it or not. Only geniouses can come up with those algorithms by themselves (and probably not during an interview)
-and I'm not one of those. I'm just a normal guy.
+Something had to change given that my approach wasn't working as I planned. I started analyzing my process for dealing with hard LeetCode problems.
+Some problems are just really complicated and it's fine to check for the answer if you are not able to solve it in a resonable time frame.
 
-Checking the solution right away is also not the answer. You need to think hard for at least an hour I would say, so when you read and try
-to understand the solution (sometimes understanding the solution can take an hour on itself, not even mentioning trying to come up with that)
-it's more likely to stick in your brain. But those problems you ~think you~ understand, you need to revisit them in the future to double-check
-if you actually understood them or not.
+No one has enough time to spend a week on one single problem which solution might be an [obscure algorithm](https://pablomusumeci.github.io/leetCode/count-bits/#brian-kernighans-algorithm).
+Once of those that you either have knowledge of it or not. Only geniouses can come up with those algorithms by themselves (and probably not during an interview)
+and I'm not one of them.
+
+Checking the solution right away is also not the answer. You need to think hard for at least an hour or so. Hence, when you read and try
+to understand the solution (sometimes just understanding the solution can take an hour on itself) it's more likely to stick in your brain. 
+
+:warning: For the problems you *think you understand*, you mustrevisit them in the future to double-check
+if you accurately understood them or not.
 
 > There are known knowns. These are things we know that we know. There are known unknowns. That is to say, there are things that we know we don’t know. But there are also unknown unknowns. There are things we don’t know we don’t know.
 >
@@ -361,20 +380,20 @@ if you actually understood them or not.
 
 This is the method I developed for fighting against the *unknown unknowns*. I call it **TODO-REDO-DONE**.
 
-The first time you see a problem, it's just something that belongs to your *TODO* list.
-If the got to the on your own answer without too much sweat then you can mark it as *DONE*.
-But what if this problem was a tough nut to crack? Maybe you even had to check the answer in the [discussion forum](#discussion-section-is-the-true-gold-mine).
-Then it's better to reasses in the future if you truly understood all the details involved.
-Let's move it to the *REDO* list and take another look after a few days when the waters are calm in your brain.
+The first time you see a problem it's just something that belongs to your *TODO* list.
+If you manage to solve it without breaking too much sweat then you can simply mark it as *DONE*.
+What if this problem was a tough nut to crack? Maybe you even had to check the answer in the [discussion forum](#discussion-section-is-the-true-gold-mine).
+Then it's better to reassess in the future if you truly understand all the details involved.
+Let's move it to the *REDO* list and give it another look after a few days. Let it sink in.
 
 > What I cannot create, I do not understand.
 >
 > -- <cite>Richard Feynmann</cite>
 
-You will be exposed to less exercises if you do this. But the ones you have seen you can be damn sure
+You will be exposed to fewer problems but the ones you have practiced you can be damn sure
 that you understand them inside out. Less is more here.
 
-Luckily LeetCode allows you to create your own lists of exercises, so you can use that to keep track of
+Luckily LeetCode allows you to create your lists of problems so you can use that to keep track of
 which state do they currently belong to.
 
 {:refdef: style="text-align: center;"}
@@ -383,34 +402,38 @@ which state do they currently belong to.
 
 ## Walk before you can run
 
-LeetCode problem's are categorized in 3 levels of difficulty:
+LeetCode problem's are classified in 3 levels of difficulty:
 
-- ~~Easy~~ Medium
-- ~~Medium~~ Hard
+- ~~Easy~~ Puzzling
+- ~~Medium~~ Mind-bending
 - ~~Hard~~ Impossible
 
-I started directly with Medium problems as this was not my first time preparing for interviews. Also, in the interview I expected to
-face Medium to Hard problems so Easy problems were not going to teach me anything useful for my preparation.
+I started directly with Medium problems as this was not my first time preparing for interviews. I was expecting to
+face Medium to Hard problems so I considered Easy ones to be unproductive for my preparation.
 
-As I'm writing this I'm thinking "How could I be so arrogant and stupid?". You live and you learn. Please do not repeat the same mistake
-as I did. When you are just starting Easy problems are actually going to be very challenging, don't feel dissapointed if you need an hour (or more)
-to solve one of those. Of course you are not going to achieve the best solution, that is 100% guaranteed. You solution is going to be
-very crappy and inefficient, but that's perfectly fine as you are going to check in the [discussion forum](#discussion-section-is-the-true-gold-mine)
+As I'm writing this text I'm thinking "How could I be so arrogant and stupid?". You live and you learn. Please do not repeat the same mistake
+as I did. When you are just starting Easy problems are going to feel very challenging. Don't be dissappointed if you need an hour (or more)
+to solve only one. 
+
+I take for granted that you are not going to achieve the best solution. That is 100% guaranteed. Your solution is going to be
+very crappy and inefficient but that's perfectly fine as you are going to check in the [discussion forum](#discussion-section-is-the-true-gold-mine)
 why the performance of your idea is so bad.
 
-Maybe your algorithm has the perfect time complexity but you concatenated lots of Strings and in Java that's terrible for performance. No problem,
-now you know something new. Next problem you are going to be repeat the same mistake.
+Maybe your algorithm has the perfect time complexity and an implementation detail is trashing the performance at runtime (like for example concatenating lots of Strings in Java). 
+No problem at all, now you know something new. Next time you are not going to repeat the same mistake.
 
-Start with easy and move to medium as easy problems start to look doable at first sight. 
+Start with Easy and move to Medium when Easy problems look doable at first sight. 
 
-:warning: Beware of misclassification. Some easy problems should actually be medium so don't be surprised if you find an easy
-problem that's super tough to crack.
+:warning: Beware of misclassification. Some Easy problems should be Medium and some Medium should be Hard. 
+Don't be surprised if you find an Easy problem that's super tough to crack.
 
-A small note about hard problems. I haven't faced any during a real interview and I think it makes sense as those problems 
-are **really** hard while practicing at home without any pressure whatsoever. I would say impossible to solve during an interview.
+A small note about Hard problems. I haven't faced any at interviews and I think it makes sense as those problems 
+are certainly very hard. They are extremly challenging even while practicing at home without any pressure whatsoever. 
+I would say they are almost impossible to solve during an interview.
+
 Solve the most famous ones like [N-Queens](https://leetCode.com/problems/n-queens/) or [Merge k sorted lists](https://leetCode.com/problems/merge-k-sorted-lists/) but don't obsess with them.
-You might think that you are not ready for the interviews because you don't know how to solve one particular problem that
-Google uses. If you reach that point, chances are that you are going to be just fine.
+You might think that you are not ready for interviewing because you don't know how to solve one particular problem that
+Google uses in their process. If have you reached that point chances are that you are going to be just fine.
 
 # You are your worst enemy
 

@@ -244,13 +244,13 @@ I started with a free subscription and I think everybody should do the same. Tha
 get you started. One can only take true advantage of the premium features once you've solved a large amount of the basic problems offered by the platform.
 I'm sorry but money can't accelerate your learning at the beginning.
 
-After one month of using it 2 hours a day monday to monday I finally decided to **invest** 35 USD (~30 euros) to get the best out of my time. 
+After one month of using it 2 hours a day Monday to Sunday I finally decided to **invest** 35 USD (~30 euros) to get the best out of my time. 
 I reasoned the cost was 1 euro per day which is close to nothing as I only planned to use it until I landed the job of my dreams.
 
 Hopefully, the search was not going to take me forever although I had no pressure to change jobs quickly. 
 
-My focus was on finding the best opportunity for my career and to get that I had to first master my coding skills. LeetCode free version had
-demostrated to be an useful ally in that journey. If Premium features improved my preparation even a slightly then it was already a worthy investment.
+My focus was on finding the best opportunity for my career and to get that I had become a master of my craft. LeetCode free version had
+demostrated to be a powerful ally on that journey. If Premium features improved my preparation even slightly then it was already a worthy investment.
 
 Premium gives you access to features like (sorted by importance for me):
 - Premium questions
@@ -262,39 +262,38 @@ Premium gives you access to features like (sorted by importance for me):
 - Official solutions
 - Explore cards
 
-Is it absolutely necessary? I guess not. Does it help a lot? Hell yeah! Likely the investment with the highest ROI you are going to
-make in your life. $35 can be neglegible or not depending on where you live. But if LeetCode Premium helps you landing a better offer 
-that gets you extra money per year then it will pay by itself very quickly.
+Is it necessary? I guess not. Does it help a lot? Hell yeah! Likely the investment with the highest return you are going to
+make in your life. $35 might be neglegible or not depending on where you live. But if LeetCode Premium helps you landing a better offer 
+that gets you some extra money then it will pay by itself very quickly.
 
 ## Discussion section is the true gold mine
-After solving a problem (even with a terrible brute force solution) you **must** enter the discussion forum of that particular challenge.
-This is not optional if you ask me, here is where the magic happens.
+After solving a problem (even through a terrible brute force solution) you **must** enter the discussion forum.
+Doing that is not optional because there is where the magic happens.
 
-In the discussion forum you will find that there were probably (at least) 3 complete different ways of arriving to an answer. 
+In the discussion forum you will find that there were probably (at least) threw complete different ways of solving the problem.
 
-Each one with their own pros and cons, different time complexities as well. 
+Different solutions with different trade-offs in terms of time and space complexity.
 Probably the most performant solution is an already existing algorithm or obscure technique that no one 
-can reallistically come up with it during an interview unless they've seen it beforehand.
+can realistically come up with it during an interview unless they've seen it beforehand.
+That's fine as no-one expects you to come up with such during an interview anyway. 
 
-That's fine, no expects you to come up with that during an interview anyway. 
-But reading, thinking and understanding those solutions will expand your horizon about how problems 
-can be solved. You most probably can use one of those ideas in another exercise because at some point [all the problems start to look similar to
-another one you already solved](#leetCode-templates).
+Nonetheless, reading and thinking about those solutions will expand your horizon about how problems can be solved. 
+Those ideas can be leveraged in other problems because at some point [all problems start to look similar to one you previously solved](#leetcode-templates).
 
-I tried to contribute to the discussion section as much as I could. Answering questions, upvoting good solutions and even posting my own solution.
-Sometimes the core logic of my code was the same as another existing solution, but I considered posting like submitting a pull-request at work. 
+I contributed to the discussion section as much as I could. Replying to questions, upvoting the best solutions and even posting my own.
+Sometimes the core logic of my code was the same as another solution but I considered posting like submitting a pull-request at work.
 
-Helped me to double-check my solution, add comments to the non straightforward parts of the code and also write a brief explanation of how the
-algorithm works in plain english. I tried to use the [Feynmann technique](https://fs.blog/feynman-technique/) for diving deep into
-my understanding of the solution. It happens to me more often that I would like to admit but I feel that I understood something... just to realize
-that I cannot explain it in a simple way. Only then I see that I didn't fully get the idea *yet*.
+It helped me to double-check my work and add comments to the non-straightforward parts of the code. Also forced myself to write a brief explanation of 
+how the algorithm works in plain English. I use the [Feynmann technique](https://fs.blog/feynman-technique/) for diving deep into
+my understanding of the solution. Sometimes I feel that I finally understood something and still I feel incapable of explaining it clearly.
+That's a reality check where I come clean with myself about how much do I actually comprehend.
 
 > Now that you think you understand a topic reasonably well, explain it to a 12-year-old.
 >
 > -- <cite>The Feynman Technique.</cite>
 
 ## LeetCode templates
-The more problems you solve, the more you start seeing the patterns that tie all of them together underneath. 
+The more problems you face, the more you start observing the hidden patterns that connect all of them together. 
 There are thousands of different problems but only a handful of patterns.
 Sometimes the pattern is hidden and it's up to you to uncover it. What do I mean by _hidden_? 
 There are problems that due to the way they are phrased or presented, it's much more obvious how they should be modeled. 

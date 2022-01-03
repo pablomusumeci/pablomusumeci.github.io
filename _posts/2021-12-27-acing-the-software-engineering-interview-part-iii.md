@@ -44,7 +44,7 @@ Of course this was just the first step but I felt confident on my skills to over
 
 Motivated by this realization that was triggered in my brain while the interviewer was presenting the problem, 
 I jumped into coding immediately as I remembered solving a very similar problem a few days ago. 
-After coding my first solution in just a few minutes, we started testing and debugging togetherwith the interviewer only to find out that my code was very buggy.
+After coding my first solution in just a few minutes, we started testing and debugging together with the interviewer only to find out that my code was very buggy.
 
 I didn't consider some (or most) of the edge cases and out of the sudden I got really nervous again. 
 As I was fixing the bugs with some hints from my interviewer my confidence started to go down.
@@ -56,9 +56,9 @@ Here I was, facing a really easy problem and blowing away an amazing opportunity
 I came to the interview expecting failure but not like this.
 I imagined myself failing to solve a hard challenge that I was not smart enough to figure out. 
 I wasn't prepared to flunk a simple challenge just because I was
-too nervous. Maybe I was not as good as I thought or I not prepared as much as I hoped.
+too nervous. Maybe I was not as good as I thought or not prepared as much as I hoped.
 
-If situation was already not bad enough, when we started talking about time complexity of the algorithm
+If the situation was already not bad enough, when we started talking about time complexity of the algorithm
 I said something that was **OBVIOUSLY WRONG**. I rapidly corrected that but the fact I even said the wrong
 answer at first showed that I was not at the level you need to be to work at *FAANG*.
 
@@ -102,8 +102,8 @@ No, this is not yet another Javascript library. This is the secret I found for k
 - **T**est
 - **O**ptimize
 
-I sticked a post-it note to my desk and every time an interview started I looked at it to remind myself how should I proceed.
-Regardless of the complexity of the problem, I religiously followed the same approach over and over. I turned out great for me. 
+I sticked a post-it note to my desk and every time an interview started I looked at it to remind myself how I should proceed.
+Regardless of the complexity of the problem, I religiously followed the same approach over and over. It turned out great for me. 
 
 [Go ahead and read the full post here](https://www.fullstackacademy.com/blog/how-to-ace-a-technical-interview-reacto).
 
@@ -143,7 +143,7 @@ Something can be a brute force solution, that's a perfectly valid start. Still b
 Communicate this to your interviewer so they know what you have in mind, both the solution you found 
 and why you don't particularly like it as you think this problem can be solved
 in a more efficient way. Feel free to mention the time complexity of the ugly solution. 
-Providing this data is a bonus point for you as you know how to measure how bad is the bad solution.
+Providing this data is a bonus point for you as you know how to measure how bad the bad solution is.
 
 Ask them if they want you to code this bruteforce solution or better to spend time thinking about better alternatives.
 This dialog is really important for your interviewer. They know you have something in mind and you understand the limitations of that.
@@ -163,12 +163,12 @@ It's not impossible to go back and discuss a new approach but time is ticking, s
 at the beginning to maximize the chances of getting the right approach on the first try.
 
 Last but not least, once coding is done you should be adding tests, as many as you can. You probably don't need to run these but good to show
-what kind of tests would you write. Try to come with as many edge cases as you can.
+what kind of tests you would write. Try to come with as many edge cases as you can.
 
 # Exposure therapy
 
 ## Overcome fear
-One way of overcoming you fear and anxiety of interviewing is getting used to them. Interviewing is something we rarely do. You might
+One way of overcoming your fear and anxiety of interviewing is getting used to them. Interviewing is something we rarely do. You might
 have a few interviews every couple of years but the next time you are interviewing again you probably forgot how it felt. 
 
 

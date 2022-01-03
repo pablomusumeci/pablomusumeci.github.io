@@ -1,6 +1,6 @@
 ---
 title: Acing the software engineering interview - Part II
-excerpt: FAANGtastic interviewing
+excerpt: Leetcode
 last_modified_at: 2021-12-27
 categories:
   - Software interviews  
@@ -8,7 +8,7 @@ tags:
   - Interviewing
   - LeetCode
 toc: true
-toc_label: Acing the SWE interview - Part II
+toc_label: LeetCode
 toc_icon: code
 toc_sticky: true
 ---
@@ -322,5 +322,12 @@ It becomes a tiny part of your life at least for a few months.
 
 Think about it as a game. Some people solve candy crush levels, you do LeetCode challenges. Is not that different 
 except that at the end you get the job of your dreams as a reward for playing.
+
+# Recommended exercises
+
+I put together a list of problems I considered to be the most useful for me on this journey. 
+It contains a mix of different topics and difficulties. I hope you enjoy it!
+
+[LeetCode Pablo's favourites](https://leetcode.com/list/9l4tskb1).
 
 Story continues in the [third part](https://pablomusumeci.github.io/acing-the-software-engineering-interview-part-iii/) of this [series of blog posts.](https://pablomusumeci.github.io/categories/#software-interviews)

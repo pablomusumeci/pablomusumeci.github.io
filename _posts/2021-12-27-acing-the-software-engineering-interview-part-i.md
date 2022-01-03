@@ -15,7 +15,7 @@ toc_sticky: true
 This is the first in a [series of blog posts](https://pablomusumeci.github.io/categories/#software-interviews) 
 where I describe my interviewing experience and thoughts in detail.
 
-# My journey
+# My interviewing journey begins
 
 For the last three months I've been preparing myself for software interviews while also interviewing (ain't better preparation than real-world practice) hoping to find my dream job.
 Took me lots of hard-work but I can gladly announce that I finally found it. It was an amazing experience that taught me a lot.
@@ -25,7 +25,7 @@ I picked up how to prepare myself for performing under pressure like atlethes do
 I wanted to extensively describe my experience while my memories are still fresh and trustworthy. If this series of posts help at least one single person
 I will be more than satisfied with the outcome. If I was able to accomplish my goal of landing my dream job then anybody can, I have absolutely no doubts about that.
 
-It takes courage to break the status-quo and start an endeavor to advance your career. Specially if you are pretty comfortable at 
+It takes courage to break the status-quo and start an endeavor to advance your career. Especially if you are pretty comfortable at 
 your current job as I was. It's a hard decision that you can delay forever but not without consequences.
 You know that failing is not only a possibility but it's likely to happen. The good thing is that you only have to succeed once 
 during your job search to be succesful. You can (and you should) [fail as many times](#exposure-therapy) as you want 

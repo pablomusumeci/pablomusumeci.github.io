@@ -13,17 +13,99 @@ toc_icon: code
 toc_sticky: true
 ---
 
+This is the fourth in a [series of blog posts](https://pablomusumeci.github.io/categories/#software-interviews) 
+where I describe my interviewing experience and thoughts in detail.
+
+Once you've passed the coding interviews, there are still two more interviews to come.
+I think that the coding interview is the hardest and the one that requires the most preparation but
+you needed to be succesful at all of them if you want to get your dream job.
 
 # System design
 
-## Low level LLD
+This interview is mostly about designing high level components (boxes and arrows) for solving a particular scenario described by the interviewer.
+The amount of things that can be discussed are pretty much endless, so your interviewer will guide you through the
+areas they consider most important to be discussed. 
 
-## High level HLD
+System design interviews can touch a bit of every topic.
+Some people do more emphasis on the type of database used while some others care more about designing a clean API.
+
+- Understand the CAP theorem
+- Consistent hashing and its applications
+- Different levels of consistency and their trade-offs
+- Different database types and when to use which
+- Sharding and replication
+- Publish-subscribe pattern
+- [API versioning](https://stripe.com/blog/api-versioning)
+- Websockets and RPC
+
+{% include video id="aXD4tWbkoJo" provider="youtube" %}
+
+There is no bad or good solution, it all depends on the problem you are trying to solve and the trade-offs you are
+willing to make. You might prefer availability over consistency when calculating the amount of likes on a social
+media post. There it's not a big deal if you show incorrect (as in stale) data for a while as long as you show *something*.
+
+But in systems where money is handeled we are generally more worried about strong consistency (calculating the right value)
+at the expense of some downtime.
+
+## Avoid naming names
+
+I highly encourage you to avoid naming specific technologies and just stay with the most generic abstraction as possible.
+Instead of saying "I would cache things in Redis", just say that you would use an in-memory datastore. 
+I would use a NoSQL database in place of "I would use MongoDB". 
+
+The moment you put a name out there your interviewers are going to start asking questions about that specific technology.
+So restrain yourself from mentioning technologies you are not to familiar with. For this kind of situations I always say 
+something like:
+
+> Disclaimer, I've never worked with this technology but I read that **${BUZZWORD}** is generally used to solve this kind of problem.
+>
+> -- <cite>Pablo</cite>
+
+You should at least know some of the very basics of **${BUZZWORD}** technology. Why do people recommend that for solving the problem?
+Don't just talk for the sake of talking. Interviewers prefer to work with someone who admits when they don't know something
+instead of bullshiting their way out of a situation.
+
+## Resources 
+- [System Design Interview – An insider's guide](https://www.amazon.com/System-Design-Interview-insiders-Second/dp/B08CMF2CQF) is a fantastic source of 
+examples for preparing the SD interview. If you don't know how to start, please start with this book.
+
+{:refdef: style="text-align: center;"}
+![system design book](/assets/images/acing-the-software-engineering-interview/system-design-book.jpg)
+{: refdef}
+
+- An interviewer from *FAANG* recommended me the following course [Grokking the system design interview](https://www.educative.io/courses/grokking-the-system-design-interview). I personally haven't used it but heard amazing things about it.
+
+I also wanted to share a few YouTube channels that I used:
+   - [Hussein Nasser](https://www.youtube.com/user/GISIGeometry)
+   - [Gaurav Sen](https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw)
+   - [Code Karle](https://www.youtube.com/c/codeKarle)
+   - [Tech Dummies Narendra L](https://www.youtube.com/channel/UCn1XnDWhsLS5URXTi5wtFTA)
+   - [SystemDesignInterview](https://www.youtube.com/c/SystemDesignInterview/)
+
+
+Also some blogposts I liked:
+- [How Discord Stores Billions of Messages](https://blog.discord.com/how-discord-stores-billions-of-messages-7fa6ec7ee4c7)
+- [Sharding & IDs at Instagram](https://instagram-engineering.com/sharding-ids-at-instagram-1cf5a71e5a5c)
 
 # Behavioral interview
 
-Behavioral interviews check if you are a match for the company's culture. I'm not going to go deep
-into what embodies a company's culture but I will summarize it in a quote extracted from this [blog post I really like](https://camillaboyer.medium.com/why-cultures-fail-3151e72d3ca8).
+I always disregarded the soft-skills interview as I consider myself very talkative person. The stereotypical programmer
+is introverted, socially awkward and highly intellectual. I recognize parts of me that match the standard nerd although
+I always considered myself *normal* enough to pass *the psycopath test*.
+
+{:refdef: style="text-align: center;"}
+![standard nerds](/assets/images/acing-the-software-engineering-interview/standard-nerds.gif)
+{: refdef}
+
+At big companies, this interview is much more than just a check to ensure that you are not a wacko.
+Behavioral interviews are there to check if you are a match for the company's culture.
+A company's culture is not composed by their free lunch, parties and games rooms. 
+The culture of a company is its DNA.
+
+
+## What is the purpose of this interview?
+
+I'm not going to go too deep into what embodies a company's culture but I will summarize it in a quote extracted from this [blog post I really like](https://camillaboyer.medium.com/why-cultures-fail-3151e72d3ca8).
 
 > Culture is how we do things here and how people act when nobody is watching.
 
@@ -46,7 +128,9 @@ All these questions start with something similar to  "Tell me about a time where
 How should we approach those types of questions?
 
 ## What makes a good story?
-This interview is all about telling a good story. We humans are fascinated by stories, that's the reason why we love watching movies and reading books.
+
+This interview is all about telling a good story. We humans are fascinated by stories, 
+that's the reason why we love watching movies and reading books.
 Interviewers want to know who are you and the window through which they are going to look at your experiences is the story you tell them.
 It's absolutely critical that you pick good stories to illustrate your past experiences.
 
@@ -56,7 +140,9 @@ to see a movie where the main character is flawless? That would be pretty boring
 The heroes we love are fragile and flawed. They make mistakes and not always win. What we love about them is 
 that each failure allows them to emerge stronger than before.
 
-> A mistake is only a mistake when you don't learn from them. Otherwise it is a lesson.
+> We do not learn from experience, we learn from reflecting on experience.
+>
+> -- <cite>John Dewey</cite>
 
 It's natural to try hiding your weaknesses during interviews but you shouldn't. Self-reflection
 shows a person that wants to improve. You know you are not perfect, you know there are areas you should improve but you are a work in progress.
@@ -71,11 +157,12 @@ Think about stories where you...
 - Took risks but without being reckless.
 - Made a mistake while trying to do something with good intentions.
 - Led by example and inspired others.
+- Decided something that seemed right at the moment but ended up being the wrong call.
 
 You might come up with a few potential stories that can answer each question. Select the ones that 
 best showcase the reasons why you should be hired.
 
-## Practice storytelling
+## A good story needs only a good storyteller
 
 Now that you have a few candidate stories, it's time to write a script. You want to narrate the situation providing
 enough context but without going to deep into unnecesary details. 
@@ -101,49 +188,52 @@ Think about the best stories you share together with your friends or that story 
 Keeping a good pace is key. You want to speak slow enough so that the story is easily absorbed but not so slowly that the listener mind checks out of the room.
 
 
-## More than a nerd-meter
+## What is the cost of lies?
 
-We programmers are a rare breed, I recognize that. We are nerds who most likely follow **${SCIENCE_FICTION_MOVIE_SAGA}**, love drinking coffee and sarcasm.
-We were never part of the cool kids at school, always picked last in sports.
+> Every lie we tell incurs a debt to the truth. Sooner or later, that debt is paid.
+>
+> -- <cite>Chernobyl, HBO</cite>
+
+You might think that you don't have any good stories to tell, that nothing trully remarkable or extrordinary happened to you at work.
+Perhaps you are considering inventing a story that shows you have all the ingredients the interviewer is looking after in a candidate.
+
+I'm going to tell you why that's a terrible idea. By doing this you are showing your interviewers a big fat red flag.
+Interviewers are pros. They had this interview hundreds of times before. They know how a good answer looks like and they can smell
+a false story from miles away.
+
+There will be two or tree nested questions. It will be impossible for you to maintain a credible lie.
+They will caught you red-handed and that's the worst possible outcome of the interview. Dishonesty is 
+instant disqualification.
 
 {:refdef: style="text-align: center;"}
-![silicon-valley](/assets/images/acing-the-software-engineering-interview/silicon-valley.png)
+![disqualified](/assets/images/acing-the-software-engineering-interview/disqualified.gif)
 {: refdef}
 
-So I imagined that this interview was just for the company to do a sanity check on how the person they inteded to hire
-ranks in the nerd-meter among all the nerds that currently work there. It's actually a bit more complex than that and I will throw some light on
-what I learnt about this type of interviews.
-
-## Culture is companies DNA
+Lying doesn't benefit you nor the company. You can only thrive in a work-place where you are a happy camper.
+If you are not a mutual match then trying to force the relationship through lies will manifest later on.
 
 
+## The Miranda warning
 
-Do this person maintain the company's culture? If you hire too many people which mentality falls outside the spectrum 
-of your companies' culture, then the culture will start to mutate as it is formed by its employees' values.
-Can this person thrive in this company? Only if their values are aligned.
+If you are at this interviewing stage, you probably wrote your resume a few months ago and completely forgot everything mentioned there.
+You most likely bent the truth a little bit to make your resume more attractive to recruiters, no one pays attention to everything
+that's written there anyway, right?
 
-## Interpersonal skills
+> Anything you say can be used against you in court.
+>
+> -- <cite>Miranda warning.</cite>
 
-How well can you communicate your thoughts, ideas, perspectives and experiences to the person sitting in front of you? 
-Do you play well with others? Do you share your toys?
+During this interview those things will come up. There is a possibility that you are requested to elaborate on 
+any given sentence used in your resume. For instance, if you mention __mentoring__ then be prepared to provide
+concrete examples about whom you mentored in the past and how.
 
-## Red flag detector
-
-I believe that this type of interviews try to spot any big red flag 🚩 on the person about to be hired. It's impossible 
-to say if hiring someone will be a success or not. It's much easier to judge this person is destined to fail in this company.
-That doesn't mean the person is a failure, it means that due to their personality they are not a match for this particular company.
-People are different and so do companies. It's all about finding the perfect match.
-
-
-## Your experience
-About you, teams you worked on, projects you completed, problems you faced.
-The content of following video is pure gold and the YouTuber gets the message accross fantastically.
-Really a must watch 👇
+The following video is pure gold and the YouTuber gets the message accross fantastically. Really a must watch 👇
 {% include video id="PJKYqLP6MRE" provider="youtube" %}
 
 
-## Lying = instant-disqualification
+## Red flag detector 🚩
 
-Interviewers are pros. There will be one or two nested calls into the question. It's impossible to maintain a credible lie.
-
-Be self-critical. Talk about your flaws. Show awareness, don't try to hide them.
+I believe that this type of interviews try to spot any big red flags before someone gets hired. It's impossible 
+to say if hiring someone will be a success. It's much easier to judge if hiring this person is destined to fail in this company.
+That doesn't mean the person is a failure, it means that due to their personality they are not a a good fit for this particular company.
+People are different and so do companies. It's all about finding the perfect match.

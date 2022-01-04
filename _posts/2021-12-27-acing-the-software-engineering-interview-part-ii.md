@@ -323,11 +323,17 @@ It becomes a tiny part of your life at least for a few months.
 Think about it as a game. Some people solve candy crush levels, you do LeetCode challenges. Is not that different 
 except that at the end you get the job of your dreams as a reward for playing.
 
-# Recommended exercises
+# Resources
 
 I put together a list of problems I considered to be the most useful for me on this journey. 
 It contains a mix of different topics and difficulties. I hope you enjoy it!
 
 [LeetCode Pablo's favourites](https://leetcode.com/list/9l4tskb1).
+
+I also wanted to share a few YouTube channels that I used:
+- [Tushar Roy](https://www.youtube.com/user/tusharroy2525)
+- [BackToBackSWE](https://www.youtube.com/c/BackToBackSWE)
+- [KevinNaughtonJr](https://www.youtube.com/c/KevinNaughtonJr)
+- [Nick White](https://www.youtube.com/c/NickWhite)
 
 Story continues in the [third part](https://pablomusumeci.github.io/acing-the-software-engineering-interview-part-iii/) of this [series of blog posts.](https://pablomusumeci.github.io/categories/#software-interviews)

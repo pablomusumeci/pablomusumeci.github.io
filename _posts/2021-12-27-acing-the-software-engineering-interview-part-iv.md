@@ -292,48 +292,81 @@ People are different and so do companies. It's all about finding the perfect mat
 ![congratulations](/assets/images/acing-the-software-engineering-interview/congratulations.gif)
 {: refdef}
 
-That's it, you've made it. The long journey has come to an end. Yes but no. This is not over until a sheet of paper is signed (at least digitally).
+That's it, you've made it. The long journey has come to an end. Yes but no. This is not over until the contract is signed (at least digitally).
 Now we have to play a different kind of game.
 
-You might think that negotiating is not your kind of thing. You rather take whatever the company offers to avoid having that awkard conversation about money.
-You don't want to look like a greedy person, you just want a better job that pays more than your current. How much more? Whatever the company offers you.
+You might think that negotiating is not your thing. You rather take whatever the company offers to avoid having that awkard conversation about money.
+You don't want to look like a greedy person, you just want a better job that pays more than the one you currently have. How much more? Whatever the company offers you is fine...
 
 > You do not get what you want. You get what you negotiate.
 >
 > -- <cite>Harvey Mackay.</cite>
 
-What's the point on risking the job offer for an extra 5%? **WRONG**. You are most certainly not putting your offer on the line
-and it's definitely not only 5%.
+What's the point on risking a job offer you were planning to accept for an extra 5%? **WRONG**. You are most certainly not putting your offer on the line
+and the amount your are leaving on the table it's definitely larger than 5%.
 
-Negotiating a good offer can be an instant 20% raise and only takes you a few short meetings and some nerves of steel.
-I'm not going to lie, is not going to be easy. Well, the situation is indeed not hard but your mind is will freak out about it. 
+Negotiating a good offer can be an instant **20%** (or more) raise and only takes you a few short meetings and some nerves of steel.
+I'm not going to lie, is not going to be easy. Well, the situation is indeed not hard at all but your mind will freak out about it. 
 The fear of loosing everything will [cloud your judgement](https://en.wikipedia.org/wiki/Framing_effect_(psychology)). We are risk-averse creatures.
 
 {% include video id="u9BoG1n1948" provider="youtube" %}
 
+## What gives you leverage?
 
-## 
+If you want to negotiate a better offer you need be honest with yourself about who has the better hand. The company
+already invested lots of their time and resources interviewing you. And they want you, that's why they extended this offer to you.
+Only a small percentage of applicants make it to the end of their lengthy and complex interviewing pipeline. If you decline their offer is a big hit for them, they
+are not going to let you walk away that easily.
 
-If you want to negotiate a better offer you need be honest with yourself about who has the better hand.
-There are only two things that give you leverage:
+There are only two things that give you leverage for negotiating a better offer.
 
-### Acing the interviews
+- **Acing the interviews**: They love you. You impressed everybody with both your technical and soft skills. All the interviewers said **strong hire**
+and they are willing to do whatever it takes (within the limits of what's ~~reasonable~~ possible) to get you onboard. 
+- **Having competing offers**: They need to offer you more because they are afraid of losing you to another company that is willing to put more money on the table. You should mention that money is not the only 
+thing you care about, but you also don't want to feel you are missing on something. They will do their best to match your best offer to make sure that money is not
+the deciding factor in the negotiation. 
 
-They love you. You 
-### Have Competing offers.
+If you can combine both of these togher then you have the recipe for negotiating a very nice compensation package. Congratulations again 🎉!
 
-There are some amazing resources written about this. Please go ahead an prepare yourself the same way you've prepared for all the other interviews.
+## NANANANA BATNA
+When you have multiple offers from good companies, you have a very strong **BATNA** and that puts you in the perfect position. 
+What does *BATNA* mean? It stands for **Best Alternative To a Negotiated Agreement**. 
 
+It's basically the alternatives you or the company have in case the deal doesn't work. 
+Each party involved in the negotiation has their own *BATNA*.
 
-These three links are a **must read**. They are also written in a fantastic way so it will both fun and educational.
+{:refdef: style="text-align: center;"}
+![congratulations](/assets/images/acing-the-software-engineering-interview/batman.gif)
+{: refdef}
+
+Let's look at this particular case in more detail. The company's *BATNA* is to keep interviewing more people to fill the spot.
+If they have one position and ten prospects to fill it, then I'm sorry but you are not *that* special for them. But in the software business the opposite is more likely to be the case, especially for more senior positions.
+
+If the company struggles to find strong candidates that meet their bar, then their *BATNA* (the deal is over because you rejected them) kind of sucks. 
+Whereas your *BATNA* is just going with one of the other amazing companies that extended you an offer. The more alternatives you have the stronger your *BATNA* becomes.
+The more desperate you are, the weaker your *BATNA* becomes.
+
+I have to admit it, I love how the word *BATNA* sounds.
+
+## Resources
+
+There are some amazing resources written about this subject. Please go ahead an prepare yourself for the negotiation phase in the same way you've prepared for all the other types of interviews.
+
+These three links are a definitely a **must read**. They are also written in a fantastic way so it will both fun and educational for you to read.
 - [Ten Rules for Negotiating a Job Offer](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)
 - [How Not to Bomb Your Offer Negotiation](https://haseebq.com/how-not-to-bomb-your-offer-negotiation/)
 - [Salary negotiation](https://www.kalzumeus.com/2012/01/23/salary-negotiation/)
 
-Optionallly, if you are really fascinated by this topic like I am, you should definitely read 
+Optionally, if you are really fascinated by this topic like I am, you should definitely read 
 [Never Split the Difference](https://www.amazon.com/Never-Split-Difference-Negotiating-Depended-ebook/dp/B014DUR7L2) by
 former FBI hostage negotiator Chris Voss.
 
 {:refdef: style="text-align: center;"}
 ![Never split the difference](/assets/images/acing-the-software-engineering-interview/never-split-the-difference.jpeg)
 {: refdef}
+
+And I guess that's pretty much it. I hope my experiences helped you in some way. I counted with the suppport of all 
+my friends and family while going through this very stressful process. But I can't really complain at all, I'm really
+satisfied with everything I've learnt and the job I landed.
+
+Thanks for reading and if you have any questions don't hesitate to drop my a message on any of my social

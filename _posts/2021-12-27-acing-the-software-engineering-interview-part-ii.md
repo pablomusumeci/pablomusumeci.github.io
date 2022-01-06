@@ -338,4 +338,4 @@ I also wanted to share a few YouTube channels that I used:
 - [KevinNaughtonJr](https://www.youtube.com/c/KevinNaughtonJr)
 - [Nick White](https://www.youtube.com/c/NickWhite)
 
-The story continues in the [third part](https://pablomusumeci.com/acing-the-software-engineering-interview-part-iii/) of this [series of blog posts.](https://pablomusumeci.com/categories/#interviewing)
+The story continues in the [third part](https://pablomusumeci.com/interviewing/acing-the-software-engineering-interview-part-iii/) of this [series of blog posts.](https://pablomusumeci.com/categories/#interviewing)

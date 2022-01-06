@@ -181,7 +181,7 @@ This approach quickly confirmed Parkinson's law:
 
 Then I started using a stopwatch. However, you can always pause it to take breaks and resume afterward. Sometimes I even forgot that the thing
 was running at all. I was measuring how long it took me to solve a single problem where what you are actually after is how much progress you can achieve in a fixed amount of time.
-You want to [set a time limit](https://pablomusumeci.com/acing-the-software-engineering-interview-part-ii/#mock-assessments) (like what happens during interviews) and then do as much as you can as fast you can inside that time frame.
+You want to [set a time limit](https://pablomusumeci.com/interviewing/acing-the-software-engineering-interview-part-ii/#mock-assessments) (like what happens during interviews) and then do as much as you can as fast you can inside that time frame.
 
 
 The next difficulty were the problems I had chosen to practice against. [Cracking the coding interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
@@ -192,4 +192,4 @@ I was not enjoying the process and most importantly, I was not making progress a
 accomplishing any goal. Now after one month it was time for taking it to the next level. Something had to change.
 
 
-The story continues in the [second part](https://pablomusumeci.com/acing-the-software-engineering-interview-part-ii/) of this [series of blog posts.](https://pablomusumeci.com/categories/#interviewing)
+The story continues in the [second part](https://pablomusumeci.com/interviewing/acing-the-software-engineering-interview-part-ii/) of this [series of blog posts.](https://pablomusumeci.com/categories/#interviewing)

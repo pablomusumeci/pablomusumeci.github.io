@@ -77,12 +77,12 @@ something like:
 >
 > -- <cite>Pablo</cite>
 
-You should at least know the very basics of **${BUZZWORD}** technology and why people recommend it for solving this problem?
+You should at least know the very basics of **${BUZZWORD}** technology and why people recommend it for solving this problem.
 Don't just talk for the sake of talking. In general, we prefer to work with someone who admits when they don't know something
 instead of bullshiting their way out of a situation.
 
 Not knowing is fine, dishonesty is not. This interview can bring up a wide variety of topics and no one is expected to
-be an expert in all of those. It's more about how would you tackle the *unknowns* and your thought process for that.
+be an expert in all of those. It's more about how you would tackle the *unknowns* and your thought process for that.
 Identify single points of failure and bottlenecks. Be mindful of trade-offs and explicitly mention them to your interviewer.
 
 

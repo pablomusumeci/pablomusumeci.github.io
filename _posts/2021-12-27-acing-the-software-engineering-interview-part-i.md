@@ -115,7 +115,7 @@ in solving a problem at home is a lot. Most people can't even afford to do that 
 their current job or even more important than that: Their own family.
 
 Even if the company states that "it should only take around 3 hours" we all know that everybody is going 
-to spend much more time than that. We all want to show what we are capable of so putting some extra effort into it doesn't sound like a crazy idea.
+to spend much more time than that. We all want to show what we are capable of, so putting some extra effort into it doesn't sound like a crazy idea.
 Production-quality code is documented code with full (or at least a decent) test coverage.
 No one wants to submit a crappy assignment as that would be the same as putting on your LinkedIn job title "Subpar engineer".
 

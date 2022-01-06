@@ -140,7 +140,7 @@ demonstrated to be a powerful ally on that journey. If Premium features improved
 Premium gives you access to features like (sorted by importance for me):
 - Premium questions
 - Select questions by company
-- [Timed assesments](#timed-assesments)
+- [Mock assesments](#mock-assesments)
 - Sorting questions by frequency
 - Autocompletion
 - No waiting time between submissions

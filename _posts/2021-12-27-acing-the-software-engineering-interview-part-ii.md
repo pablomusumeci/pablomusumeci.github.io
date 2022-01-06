@@ -75,13 +75,13 @@ likely fail the interview.
 Once you've finished, you will receive a report with an evaluation of your performance compared to other candidates.
 
 {:refdef: style="text-align: center;"}
-![report](/assets/images/acing-the-software-engineering-interview/LeetCode-report.png)
+![report](/assets/images/acing-the-software-engineering-interview/Leetcode-report.png)
 {: refdef}
 
 It also shows you an overview of your performance across different areas and a nudge about where you should be focusing on.
 
 {:refdef: style="text-align: center;"}
-![overview](/assets/images/acing-the-software-engineering-interview/LeetCode-overview.png)
+![overview](/assets/images/acing-the-software-engineering-interview/Leetcode-overview.png)
 {: refdef}
 
 :warning: Don't be too distracted by those scores if you are using LeetCode (and most people are) as preparation for interviewing.

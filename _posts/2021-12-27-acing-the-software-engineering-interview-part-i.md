@@ -24,7 +24,7 @@ I picked up how to prepare myself for performing under pressure as athletes do. 
 
 I wanted to extensively describe my experience while my memories are still fresh and trustworthy. 
 If this series of posts help at least one single person I will be more than satisfied with the outcome. 
-f I was able to accomplish my goal of landing my dream job then anybody can, I have absolutely no doubts about that.
+If I was able to accomplish my goal of landing my dream job then anybody can, I have absolutely no doubts about that.
 
 It takes courage to break the status quo and start an endeavor to advance your career. Especially if you are pretty comfortable at 
 your current job as I was. It's a hard decision that you can delay forever but not without consequences.
@@ -186,7 +186,7 @@ You want to [set a time limit](https://pablomusumeci.com/interviewing/acing-the-
 
 The next difficulty were the problems I had chosen to practice against. [Cracking the coding interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
 contains 189 programming questions which are not the easiest ones to start with.
-Frustration arose very quickly as I was trying to [solve Hard problems from day one](#walk-before-you-can-run). 
+Frustration arose very quickly as I was trying to [solve Hard problems from day one](https://pablomusumeci.com/interviewing/acing-the-software-engineering-interview-part-ii/#walk-before-you-can-run). 
 
 I was not enjoying the process and most importantly, I was not making progress at a good speed. It got me started which is crucial for
 accomplishing any goal. Now after one month it was time for taking it to the next level. Something had to change.

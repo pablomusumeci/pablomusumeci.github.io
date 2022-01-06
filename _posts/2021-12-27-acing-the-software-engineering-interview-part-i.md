@@ -29,7 +29,7 @@ If I was able to accomplish my goal of landing my dream job then anybody can, I 
 It takes courage to break the status quo and start an endeavor to advance your career. Especially if you are pretty comfortable at 
 your current job as I was. It's a hard decision that you can delay forever but not without consequences.
 You know that failing is not only a possibility but it's likely to happen. The good thing is that you only have to succeed once 
-during your job search to be successful. You can (and you should) [fail as many times](#exposure-therapy) as you want 
+during your job search to be successful. You can (and you should) [fail as many times](https://pablomusumeci.com/interviewing/acing-the-software-engineering-interview-part-iii/#exposure-therapy) as you want 
 until you find that one company that likes you and you like them.
 
 I had a very clear view of what I wanted as a next step (or at least that's what I thought at that time) for my career. I wanted to join [Big Tech](https://en.wikipedia.org/wiki/Big_Tech).

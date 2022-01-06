@@ -1,5 +1,5 @@
 ---
-title: Acing the Software Engineer Interview - Part III
+title: Acing the Software Engineering Interview - Part III
 excerpt: How to stay calm in high-pressure situations
 last_modified_at: 2022-01-07
 categories:

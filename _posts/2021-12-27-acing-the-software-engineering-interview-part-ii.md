@@ -1,5 +1,5 @@
 ---
-title: Acing the Software Engineer Interview - Part II
+title: Acing the Software Engineering Interview - Part II
 excerpt: An in-depth analysis of LeetCode
 last_modified_at: 2022-01-07
 categories:

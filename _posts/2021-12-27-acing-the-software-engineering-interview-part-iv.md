@@ -1,5 +1,5 @@
 ---
-title: Acing the Software Engineer Interview - Part IV
+title: Acing the Software Engineering Interview - Part IV
 excerpt: System design, behavioral interviews and negotiating offers
 last_modified_at: 2022-01-07
 categories:

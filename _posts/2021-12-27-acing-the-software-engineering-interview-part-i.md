@@ -1,5 +1,5 @@
 ---
-title: Acing the Software Engineer Interview - Part I
+title: Acing the Software Engineering Interview - Part I
 excerpt: How to survive and thrive at software interviews.
 last_modified_at: 2022-01-07
 categories:

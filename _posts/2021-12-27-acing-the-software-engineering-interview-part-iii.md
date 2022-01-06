@@ -250,8 +250,8 @@ Set the video in full-screen mode and observed every little detail of it while k
 I recommend choosing a song you love and particularly one that **energizes** you. I recommend rap (Eminem is a great choice) 
 but that's up to you, go and find your own ritual.
 
-You want something that makes you enter the interview like Michael Jordan entering  
-a play-off game, ready to excel.    [Listening to the Chicago Bulls song from Alan Parsons still gives me goosebumps](https://www.youtube.com/watch?v=Zn6kiimEsYc).
+You want something that makes you feel like Michael Jordan entering  
+a play-offs game, ready to excel. [Listening to the Chicago Bulls song from Alan Parsons still gives me goosebumps](https://www.youtube.com/watch?v=Zn6kiimEsYc).
 
 {:refdef: style="text-align: center;"}
 ![MJ](/assets/images/acing-the-software-engineering-interview/Michael-Jordan-Clapping.gif)

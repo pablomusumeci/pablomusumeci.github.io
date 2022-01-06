@@ -355,4 +355,4 @@ I was quite confident that I failed but ended up getting another chance.
 I took this as a free pass that helped me to keep interviewing with this *FAANG* company more relaxed. 
 I had nothing to lose and that mentality helped me to better perform in what came next.
 
-The story continues in the [fourth and final part](https://pablomusumeci.com/acing-the-software-engineering-interview-part-iv/) of this [series of blog posts.](https://pablomusumeci.com/categories/#interviewing)
+The story continues in the [fourth and final part](https://pablomusumeci.com/interviewing/acing-the-software-engineering-interview-part-iv/) of this [series of blog posts.](https://pablomusumeci.com/categories/#interviewing)

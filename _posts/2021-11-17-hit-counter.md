@@ -154,7 +154,7 @@ public class HitCounter {
 }
 {% endhighlight %}
 
-## How does a circular array works?
+## How does a circular array work?
 
 A circular array is just an array, but the way we use it is what makes it circular. 
 

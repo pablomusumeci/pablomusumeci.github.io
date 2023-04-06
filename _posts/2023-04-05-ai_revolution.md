@@ -1,5 +1,5 @@
 ---
-title: AI revolution
+title: The AI revolution
 excerpt: Welcome to the future
 last_modified_at: 2023-04-05
 categories:
@@ -13,7 +13,7 @@ tags:
 > A photorealistic humanoid robot --s 750 --v 5 
 
 {:refdef: style="text-align: center;"}
-![Biza](/assets/images/midjourney/robot.png)
+![Biza](/assets/images/midjourney/robot.jpg)
 {: refdef}
 
 > The power of imagination makes us infinite.
@@ -25,15 +25,15 @@ AI always seemed like a distant concept to me, until this week. I finally decide
 and immerse myself into the world of generated AI art.
 
 These past few days have been absolutely wild. It took me less than a week to fall completely into the AI rabbit hole. 
-Without even my consent, I became believer. 
+Even without my consent, I became believer. 
 
 The box is already open and there is no coming back.
-I have no doubt that in the future, we'll all be able to look back and remember the exact moment when we started to believe.
+I have no doubt that, in the future, we'll all be able to look back and remember the exact moment when we started to believe.
 
 > A large lecture hall, an AI robot in front of a giant whitebord, teaching history
 > 
 {:refdef: style="text-align: center;"}
-![Biza](/assets/images/midjourney/teacher.png)
+![Biza](/assets/images/midjourney/teacher.jpg)
 {: refdef}
 
 Let me take you through my eye-opener AI experience, but first some context.
@@ -55,7 +55,7 @@ A [tutorial](https://www.youtube.com/watch?v=TGD8zKvRxc4&t=187s) that was much s
 - Input the descriptions generated from ChatGPT into Midjourney, an AI that generates detailed images based on text.
 
 {:refdef: style="text-align: center;"}
-![Biza](/assets/images/midjourney/balenciaga.png)
+![Biza](/assets/images/midjourney/balenciaga.jpg)
 {: refdef}
 
 
@@ -93,19 +93,19 @@ Together with the following prompt:
 > Retro neon line art, 8k, cyberpunk, ultra hd, ultra realistic, ultra photo, ultra definition
 
 {:refdef: style="text-align: center;"}
-![Biza](/assets/images/midjourney/bizaverse.png)
+![Biza](/assets/images/midjourney/bizaverse.jpg)
 {: refdef}
 
 Midjourney always generates four images for you. I liked the one in the bottom right so I decided to get variations of that one.
 
 {:refdef: style="text-align: center;"}
-![Biza](/assets/images/midjourney/bizaraps.png)
+![Biza](/assets/images/midjourney/bizaraps.jpg)
 {: refdef}
 
 Finally, I just upscaled the one I liked the most. 
 
 {:refdef: style="text-align: center;"}
-![Biza](/assets/images/midjourney/bizarap.png)
+![Biza](/assets/images/midjourney/bizarap.jpg)
 {: refdef}
 
 AI upscaling involves producing new pixels of picture information to add detail where there wasn't any before, pretty cool.
@@ -124,7 +124,7 @@ you amazing control over the results.
 > Viking version of Scarlett Johansson ready to fight, Cinematic, Photoshoot, Shot on 25mm lens, Depth of Field, Tilt Blur, Shutter Speed 1/ 1000, F/ 22, White Balance, 32k, Super - Resolution, Pro Photo RGB, Half rear Lighting, Backlight, Dramatic Lighting, Incandescent, Soft Lighting, Volumetric, Conte - Jour, Global Illumination, Screen Space Global Illumination, Scattering, Shadows, Rough, Shimmering, Lumen Reflections, Screen Space Reflections, Diffraction Grading, Chromatic Aberration, GB Displacement, Scan Lines, Ambient Occlusion, Anti - Aliasing, FKAA, TXAA, RTX, SSAO, OpenGL - Shader's, Post Processing, Post - Production, Cell Shading, Tone Mapping, CGI, VFX, SFX, insanely detailed and intricate, hyper maximalist, elegant, dynamic pose, photography, volumetric, ultra - detailed, intricate details, super detailed, 16k ambient
 
 {:refdef: style="text-align: center;"}
-![Biza](/assets/images/midjourney/scarlet.png)
+![Biza](/assets/images/midjourney/scarlet.jpg)
 {: refdef}
 
 ### Adapting prompts
@@ -137,7 +137,7 @@ I remember founding a very vivid prompt about a Viking warrior (which seems like
 > A passionate and electrifying depiction of a skilled guitarist in the heat of a performance, their body language and facial expressions conveying raw emotion and unwavering dedication to their craft. The Canon EOS R5 mirrorless camera, paired with the sharp and versatile RF 85mm f/1.2L USM lens, captures every intricate detail of the musician's movements and the finely crafted contours of their instrument. With a meticulously selected aperture of f/2, ISO 200, and a shutter speed of 1/500 sec, the camera settings highlight the dynamic range of the scene and emphasize the intensity of the performance. The dramatic, natural lighting further enhances the guitarist's powerful presence, casting bold shadows and illuminating the intricate details of their instrument. The shallow depth of field isolates the musician from the lively concert crowd in the background, drawing the viewer's focus to their masterful technique and the passion they bring to the stage. This is a captivating portrayal of a musician who fearlessly leads their audience on a journey of unforgettable musical experiences. 
 
 {:refdef: style="text-align: center;"}
-![Guitarist](/assets/images/midjourney/guitarist.png)
+![Guitarist](/assets/images/midjourney/guitarist.jpg)
 {: refdef}
 
 ### Limitations
@@ -146,7 +146,7 @@ Impressive but not perfect. Note that hands and fingers are a sensitive topic fo
 It's not uncommon to see six fingers or funny hands.
 
 {:refdef: style="text-align: center;"}
-![Hand](/assets/images/midjourney/hand.png)
+![Hand](/assets/images/midjourney/hand.jpg)
 {: refdef}
 
 Another current limitation is the generation of meaningful text. Midjourney images contain gibberish words in 
@@ -156,12 +156,16 @@ It reminds me a lot of The Matrix's digital rain code.
 > The Matrix background green code
 
 {:refdef: style="text-align: center;"}
-![text](/assets/images/midjourney/matrix.png)
+![text](/assets/images/midjourney/matrix.jpg)
 {: refdef}
 
-The most paranoid part of me thinks that the AI might be writing something coherent in those images. 
-Are we just not able to understand it? Is the machine trying to comunicate with us? 
-It's scary and fascinating at the same time.
+:warning: The following paragraph may make me sound like a tin foil hatter, 
+but bear with me as we take a moment to imagine.
+
+The most paranoid part of me thinks that there is a tiny possibility that
+the AI might be writing something coherent in those images. 
+Are we simply unable to understand it? Is the machine trying to communicate with us? 
+It would be both scary and fascinating.
 
 ### ChatGPT as a prompt generator
 
@@ -272,13 +276,13 @@ This is all you need to know. Do you think you are ready?
 Let's give it a try:
 
 {:refdef: style="text-align: center;"}
-![GPT](/assets/images/midjourney/gpt.png)
+![GPT](/assets/images/midjourney/gpt.jpg)
 {: refdef}
 
 And now copy-pasting that into Midjourney gets us
 
 {:refdef: style="text-align: center;"}
-![boca](/assets/images/midjourney/boca.jpeg)
+![boca](/assets/images/midjourney/boca.jpg)
 {: refdef}
 
 
@@ -291,7 +295,7 @@ For example, you can command Midjourney to draw something but in an style
 that resembles the famous japanese animation [Studio Ghibli](https://en.wikipedia.org/wiki/Studio_Ghibli).
 
 {:refdef: style="text-align: center;"}
-![Totoro](/assets/images/midjourney/totoro.jpeg)
+![Totoro](/assets/images/midjourney/totoro.jpg)
 {: refdef}
 
 
@@ -307,18 +311,18 @@ After generating some impressive sketches of Amsterdam, I was eager to showcase 
 > Amsterdam canals in a summer evening, golden hour, drawn in art style of Studio Ghibli  --ar 2:3 --s 750 --v 5 
 
 {:refdef: style="text-align: center;"}
-![Amsterdam](/assets/images/midjourney/amsterdam.jpeg)
+![Amsterdam](/assets/images/midjourney/amsterdam.jpg)
 {: refdef}
 
 
 However, I quickly realized that not everyone on the internet shares the same views on art generated through artificial intelligence.
 
 {:refdef: style="text-align: center;"}
-![Reddit post](/assets/images/midjourney/reddit_post.png)
+![Reddit post](/assets/images/midjourney/reddit_post.jpg)
 {: refdef}
 
 {:refdef: style="text-align: center;"}
-![Reddit comment](/assets/images/midjourney/reddit.png)
+![Reddit comment](/assets/images/midjourney/reddit.jpg)
 {: refdef}
 
 After grappling with Midjourney, I've come to appreciate the learning curve that comes with using it effectively. 
@@ -331,7 +335,7 @@ It's no longer up for debate whether DJs are real musicians or not. Creating art
 > A robot DJ playing records in a DJ booth at a New Year’s Eve party
 
 {:refdef: style="text-align: center;"}
-![DJ](/assets/images/midjourney/dj.png)
+![DJ](/assets/images/midjourney/dj.jpg)
 {: refdef}
 
 
@@ -349,7 +353,7 @@ The difference is that now, **the machines can answer back**.
 Wait, maybe I can rewrite that last paragraph in a different way. Let's see:
 
 {:refdef: style="text-align: center;"}
-![Final](/assets/images/midjourney/final.png)
+![Final](/assets/images/midjourney/final.jpg)
 {: refdef}
 
 I like mine better, at least this time.

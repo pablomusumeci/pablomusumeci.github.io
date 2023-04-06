@@ -25,9 +25,9 @@ AI always seemed like a distant concept to me, until this week. I finally decide
 and immerse myself into the world of generated AI art.
 
 These past few days have been absolutely wild. It took me less than a week to fall completely into the AI rabbit hole. 
-Even without my consent, I became believer. 
+Even without my consent, I became a _believer_. 
 
-The box is already open and there is no coming back.
+The genie is already out of the bottle and there is no coming back.
 I have no doubt that, in the future, we'll all be able to look back and remember the exact moment when we started to believe.
 
 > A large lecture hall, an AI robot in front of a giant whitebord, teaching history
@@ -49,7 +49,7 @@ archetyped as Balenciaga models. Breaking Bad, Avengers, The Office, you name it
 
 All of them were hilarious to me and I wanted to understand better how people used AI to generate them.
 
-A [tutorial](https://www.youtube.com/watch?v=TGD8zKvRxc4&t=187s) that was much shorter than what I expected listed the steps:
+This very short [tutorial](https://www.youtube.com/watch?v=TGD8zKvRxc4&t=187s) lists the steps:
 
 - Use ChatGPT to generate very accurate descriptions of the models and their outfits.
 - Input the descriptions generated from ChatGPT into Midjourney, an AI that generates detailed images based on text.
@@ -67,7 +67,7 @@ A [tutorial](https://www.youtube.com/watch?v=TGD8zKvRxc4&t=187s) that was much s
 
 # Welcome to the machine
 
-I became curious about Midjourney and tried to join their free beta program. Service is so popular now that their free layer is no longer available. I decided to get a basic subscription instead.  It was the best ten dollars I ever spent.
+I became curious about Midjourney and tried to join their free beta program. The service is so popular now that their free layer is no longer available. I decided to get a basic subscription instead.  It was the best ten dollars I ever spent.
 
 ## Getting started
 
@@ -132,7 +132,7 @@ you amazing control over the results.
 As a Midjourney subscriber,  you can use their [explorer](https://www.midjourney.com/app/feed/) which works as an Instagram feed. 
 You see images and the prompt that used for their generation. From there you can try to reverse-engineer the results.
 
-I remember founding a very vivid prompt about a Viking warrior (which seems like a popular topic) and realizing that I could copy it and ask ChatGPT to adapt it to a different context like someone playing the guitar.
+I remember finding a very vivid prompt about a Viking warrior (which seems like a popular topic) and realizing that I could copy it and ask ChatGPT to adapt it to a different context like someone playing the guitar.
 
 > A passionate and electrifying depiction of a skilled guitarist in the heat of a performance, their body language and facial expressions conveying raw emotion and unwavering dedication to their craft. The Canon EOS R5 mirrorless camera, paired with the sharp and versatile RF 85mm f/1.2L USM lens, captures every intricate detail of the musician's movements and the finely crafted contours of their instrument. With a meticulously selected aperture of f/2, ISO 200, and a shutter speed of 1/500 sec, the camera settings highlight the dynamic range of the scene and emphasize the intensity of the performance. The dramatic, natural lighting further enhances the guitarist's powerful presence, casting bold shadows and illuminating the intricate details of their instrument. The shallow depth of field isolates the musician from the lively concert crowd in the background, drawing the viewer's focus to their masterful technique and the passion they bring to the stage. This is a captivating portrayal of a musician who fearlessly leads their audience on a journey of unforgettable musical experiences. 
 

@@ -24,7 +24,19 @@ tags:
 AI always seemed like a distant concept to me, until this week. I finally decided to get my hands dirty
 and immerse myself into the world of generated AI art.
 
-Let me take you through what I've seen so far, but first some context.
+These past few days have been absolutely wild. It took me less than a week to fall completely into the AI rabbit hole. 
+Without even my consent, I became believer. 
+
+The box is already open and there is no coming back.
+I have no doubt that in the future, we'll all be able to look back and remember the exact moment when we started to believe.
+
+> A large lecture hall, an AI robot in front of a giant whitebord, teaching history
+> 
+{:refdef: style="text-align: center;"}
+![Biza](/assets/images/midjourney/teacher.png)
+{: refdef}
+
+Let me take you through my eye-opener AI experience, but first some context.
 
 # Balenciaga memes
 
@@ -50,15 +62,14 @@ A [tutorial](https://www.youtube.com/watch?v=TGD8zKvRxc4&t=187s) that was much s
 - Use another AI to make a video of the model talking from the generated image.
 - Use yet another AI with a sample of the original's actor voice and use that as input for generating any speech using their voice. 
 - Make them say something funny related to Balenciaga. _One does not simply walk into a Balenciaga fashion show_.
-- Some video editing adding camera flashes and the same Balenciaga meme song.
-- Profit
+- Some video editing, adding camera flashes and the iconic Balenciaga meme song.
 
 
-# Midjourney
+# Welcome to the machine
 
 I became curious about Midjourney and tried to join their free beta program. Service is so popular now that their free layer is no longer available. I decided to get a basic subscription instead.  It was the best ten dollars I ever spent.
 
-## Welcome to the machine
+## Getting started
 
 I wasted my first credits in Midjourney with dull boring prompts. 
 Midjourney still managed to beat me on creativity and generate gorgeous images which were awesome.
@@ -126,16 +137,31 @@ I remember founding a very vivid prompt about a Viking warrior (which seems like
 > A passionate and electrifying depiction of a skilled guitarist in the heat of a performance, their body language and facial expressions conveying raw emotion and unwavering dedication to their craft. The Canon EOS R5 mirrorless camera, paired with the sharp and versatile RF 85mm f/1.2L USM lens, captures every intricate detail of the musician's movements and the finely crafted contours of their instrument. With a meticulously selected aperture of f/2, ISO 200, and a shutter speed of 1/500 sec, the camera settings highlight the dynamic range of the scene and emphasize the intensity of the performance. The dramatic, natural lighting further enhances the guitarist's powerful presence, casting bold shadows and illuminating the intricate details of their instrument. The shallow depth of field isolates the musician from the lively concert crowd in the background, drawing the viewer's focus to their masterful technique and the passion they bring to the stage. This is a captivating portrayal of a musician who fearlessly leads their audience on a journey of unforgettable musical experiences. 
 
 {:refdef: style="text-align: center;"}
-![Biza](/assets/images/midjourney/guitarist.png)
+![Guitarist](/assets/images/midjourney/guitarist.png)
 {: refdef}
 
-Impressive. Note that hands and fingers are a sensitive topic for Midjourney. 
+### Limitations
+
+Impressive but not perfect. Note that hands and fingers are a sensitive topic for Midjourney. 
 It's not uncommon to see six fingers or funny hands.
 
 {:refdef: style="text-align: center;"}
-![Biza](/assets/images/midjourney/hand.png)
+![Hand](/assets/images/midjourney/hand.png)
 {: refdef}
 
+Another current limitation is the generation of meaningful text. Midjourney images contain gibberish words in 
+strange alphabets. At this point, I'm not even sure those alphabets are _real_.
+It reminds me a lot of The Matrix's digital rain code. 
+
+> The Matrix background green code
+
+{:refdef: style="text-align: center;"}
+![text](/assets/images/midjourney/matrix.png)
+{: refdef}
+
+The most paranoid part of me thinks that the AI might be writing something coherent in those images. 
+Are we just not able to understand it? Is the machine trying to comunicate with us? 
+It's scary and fascinating at the same time.
 
 ### ChatGPT as a prompt generator
 
@@ -246,13 +272,13 @@ This is all you need to know. Do you think you are ready?
 Let's give it a try:
 
 {:refdef: style="text-align: center;"}
-![Biza](/assets/images/midjourney/gpt.png)
+![GPT](/assets/images/midjourney/gpt.png)
 {: refdef}
 
 And now copy-pasting that into Midjourney gets us
 
 {:refdef: style="text-align: center;"}
-![Biza](/assets/images/midjourney/boca.jpeg)
+![boca](/assets/images/midjourney/boca.jpeg)
 {: refdef}
 
 
@@ -261,33 +287,69 @@ And now copy-pasting that into Midjourney gets us
 [MidLibrary](https://www.midlibrary.io/) is an awesome website which showcases styles from _real artists_ that
 you can use to inspire your prompts.
 
-
-# Controversy
-
-After creating some impressive sketches of Amsterdam, I was eager to showcase them to the world. I posted them on Reddit with pride.
+For example, you can command Midjourney to draw something but in an style 
+that resembles the famous japanese animation [Studio Ghibli](https://en.wikipedia.org/wiki/Studio_Ghibli).
 
 {:refdef: style="text-align: center;"}
-![Biza](/assets/images/midjourney/amsterdam.png)
+![Totoro](/assets/images/midjourney/totoro.jpeg)
+{: refdef}
+
+
+You can also tune the level of creative freedom Midjourney is allowed with the `--stylize` parameter. 
+Higher values lead to more opinionated images, while lower values should normally stick closer to your prompt.
+
+
+# Am I an artist?
+
+After generating some impressive sketches of Amsterdam, I was eager to showcase them to the world. I posted them on Reddit with pride.
+
+
+> Amsterdam canals in a summer evening, golden hour, drawn in art style of Studio Ghibli  --ar 2:3 --s 750 --v 5 
+
+{:refdef: style="text-align: center;"}
+![Amsterdam](/assets/images/midjourney/amsterdam.jpeg)
 {: refdef}
 
 
 However, I quickly realized that not everyone on the internet shares the same views on art generated through artificial intelligence.
 
 {:refdef: style="text-align: center;"}
-![Biza](/assets/images/midjourney/reddit.png)
+![Reddit post](/assets/images/midjourney/reddit_post.png)
+{: refdef}
+
+{:refdef: style="text-align: center;"}
+![Reddit comment](/assets/images/midjourney/reddit.png)
 {: refdef}
 
 After grappling with Midjourney, I've come to appreciate the learning curve that comes with using it effectively. 
 I feel _some sense of ownership_ over the images it produces. Crafting the message that triggers ChatGPT to generate the prompts that Midjourney uses to create the images was no small feat.
 
-Is my contribution to the art process negligible? Perhaps. It's a thought-provoking topic and I still have conflicting emotions about it. 
+Is my contribution to the art process negligible? Depends on who you ask. It's a thought-provoking topic and I still have conflicting emotions about it.
 
-I stumbled across people selling premade prompts or even selling their service as a prompt engineer. Hiring "someone who knows how to talk with the machine" does not sound that crazy anymore. I'm a software engineer, so being "someone who knows how to talk with the machine" is pretty much my job description. The difference is that now, **the machines can answer back**.
+It's no longer up for debate whether DJs are real musicians or not. Creating art with AI is like being a visual DJ - you take styles from other artists and mix them up with your own ideas to make something totally new. Both practices require creativity and a knack for working with what's already there to come up with something fresh. 
+
+> A robot DJ playing records in a DJ booth at a New Year’s Eve party
+
+{:refdef: style="text-align: center;"}
+![DJ](/assets/images/midjourney/dj.png)
+{: refdef}
+
+
+Like how a DJ blends different songs together to make a cool set, an AI artist can combine elements from different artworks to create a new, eye-catching piece. Even though the methods might be different, both DJing and AI art-making offer exciting opportunities to make something truly unique!
+
+# What does it mean to be an engineer?
+
+I stumbled across people selling premade prompts or even selling their service as a **prompt engineer**. 
+Hiring _"someone who knows how to talk with the machine"_ does not sound that crazy anymore. 
+How the AI is instructed to perform the task has a huge impact on the quality of the results.
+
+I'm a software engineer, so being _"someone who knows how to talk with the machine"_ is pretty much my job description. 
+The difference is that now, **the machines can answer back**.
 
 Wait, maybe I can rewrite that last paragraph in a different way. Let's see:
 
 {:refdef: style="text-align: center;"}
-![Biza](/assets/images/midjourney/final.png)
+![Final](/assets/images/midjourney/final.png)
 {: refdef}
 
 I like mine better, at least this time.

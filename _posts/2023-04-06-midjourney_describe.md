@@ -2,6 +2,10 @@
 title: Midjourney /describe feature
 excerpt: Using Midjourney’s new feature to generate GTA art
 last_modified_at: 2023-04-06
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/splash.jpg
 categories:
   - AI
 tags:

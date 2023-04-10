@@ -2,6 +2,10 @@
 title: The AI revolution
 excerpt: Welcome to the future
 last_modified_at: 2023-04-05
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/splash.jpg
 categories:
   - AI
 tags:

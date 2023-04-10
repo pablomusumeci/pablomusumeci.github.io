@@ -12,6 +12,10 @@ tags:
   - AI
   - ChatGPT
   - Midjourney
+toc: true
+toc_label: Evolve or die
+toc_icon: code
+toc_sticky: true
 ---
 
 > A photorealistic humanoid robot --s 750 --v 5 

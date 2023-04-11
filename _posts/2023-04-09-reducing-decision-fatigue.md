@@ -24,7 +24,7 @@ toc_sticky: true
 > 
 > -- <cite>James Clear</cite>
 
-Decision fatigue is _the idea that after making many decisions, your ability to make more and more decisions over the course of a day becomes worse_.
+Decision fatigue is _the idea that after making many decisions, your ability to make more and good decisions over the course of a day becomes worse_.
 
 The quality of the decisions is not the only thing that suffers. 
 We, the decision-makers, feel more tired as a result of spending our mental energy on all the choices we have to make.

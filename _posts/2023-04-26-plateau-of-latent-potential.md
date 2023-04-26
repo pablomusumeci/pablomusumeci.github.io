@@ -1,6 +1,6 @@
 ---
 title: The Plateau of Latent Potential
-excerpt: Keep Going, Specially When It's Hard
+excerpt: Keep Going, Especially When It's Hard
 last_modified_at: 2023-04-26
 categories:
   - Ideas

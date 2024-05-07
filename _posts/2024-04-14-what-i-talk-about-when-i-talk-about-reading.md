@@ -51,6 +51,15 @@ Instead say that you read 10 books and they will think highly about you. Why doe
 We put books on pedestals since we were kids at school. Books mean authority and they command respect.
 Readers are respected members of our society.
 
+It’s fine to abandon a book halfway if you feel it's not the best use of your time.
+You give it another try later or never touch it again in your life. Both are fine.
+Every moment spent reading a book you don't enjoy, is a moment you could be reading something worthy of your time.
+
+It took me longer than I would like to admit to get rid of my self-shaming when I abandoned a book.
+My epiphany came during a period when I was not reading a lot. 
+
+I was not enjoying the book I was reading at the moment (sorry not sorry Mr Gatsby). It was not the right book for that time or not the right time for that book.
+The moment I picked something else, my reading skyrocketed again.
 
 # Attention crisis
 
@@ -62,18 +71,7 @@ It feels like wearing a badge of honor nowadays. It screams to the world:
 That seems to be a superpower nowadays. I'm amazed by how few people read long content.
 Everybody says they would love to read more but they don't have the time. Your screen time on your phone screams: _bullshit!_
 
-
 We all have the same time, we only have different priorities. It's about being honest with yourself.
-
-It’s fine to abandon a book halfway if you feel it's not the best use of your time.
-You give it another try later or never touch it again in your life. Both are fine.
-Every moment spent reading a book you don't enjoy, is a moment you could be reading something worthy of your time.
-
-It took me longer than I would like to admit to get rid of my self-shaming when I abandoned a book.
-My epiphany came during a period when I was not reading a lot. 
-
-I was not enjoying the book I was reading at the moment (sorry not sorry Mr Gatsby). It was not the right book for that time or not the right time for that book.
-The moment I picked something else, my reading skyrocketed again.
 
 # New times require same old solutions
 With reading, there should be no monogamy. You should be reading many books at the same time. You make the rules.
@@ -99,14 +97,14 @@ This is not bad per se, it's standing on the shoulders of the giants and that's 
 Even Marcus Aurelius had a hard time getting out of bed. We haven't changed as much as one might think.
 
 > “At dawn, when you have trouble getting out of bed, tell yourself: “I have to go to work — as a human being. What do I have to complain of, if I’m going to do what I was born for — the things I was brought into the world to do? Or is this what I was created for? To huddle under the blankets and stay warm?”
-> -- <cite>Marcos Aurelius</cite>
+> -- <cite>Marcus Aurelius</cite>
 
 # The medium is the message 
 
 I used to be obssesed with productivy. I thought that books were largely innefficient compared to newer
 digital mediums of information such as videos or podcasts. 
 
-Absorbing as much information as faster as I could was the metric I alwayzed optimized for.
+Absorbing as much information as faster as I could was the metric I always optimized for.
 Life is short and time is the only thing we have.
 
 Why reading a book when I could watch a video summary about it? The end result *seemed* to be the same, right?
@@ -128,7 +126,7 @@ That idea usually fits inside one single tweet.
 
 Their extensive length fills a purpose though. It helps us to internalize the message through sheer repetition.
 
-# Reading is inefficient and that's why is so effective
+# Reading is inefficient and that's why it is so effective
 
 I challenge you to watch 10 summary videos about books.
 I'm sure that if the following week I ask you to describe what any of

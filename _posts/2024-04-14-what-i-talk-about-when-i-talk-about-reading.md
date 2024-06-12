@@ -101,25 +101,12 @@ Even Marcus Aurelius had a hard time getting out of bed. We haven't changed as m
 
 # The medium is the message 
 
-I used to be obssesed with productivy. I thought that books were largely innefficient compared to newer
-digital mediums of information such as videos or podcasts. 
+I used to be obsessed with productivity. I thought that books were largely inefficient compared to newer  digital mediums of information such as videos or podcasts.
 
-Absorbing as much information as faster as I could was the metric I always optimized for.
+Absorbing as much information as fast as I could was the metric I always optimized for.
 Life is short and time is the only thing we have.
 
-Why reading a book when I could watch a video summary about it? The end result *seemed* to be the same, right?
-
-Most books are based on one single idea. Good boks might have two original thoughts. Three or more makes an outstanding piece.
-
-Most books can be summarized in a tweet. 
-Their extensive length fills a purpose though. It helps us to internalize the message through sheer repetition.
-
-I used to be obsessed with productivity. I thought books were extremely inefficient compared to digital mediums (videos or podcasts).
-
-Sucking as much information as fast as possible was the metric I always optimized for.
-Life is short and time is the only thing we have.
-
-Why read a book when I could be watching a video summary about it? The result seemed to be the same, right?
+Why read a book when I could watch a video summary about it? The result seemed to be the same, right?
 
 Most books stand upon one single idea. Good books might have two original thoughts. Three or more make an outstanding piece.
 That idea usually fits inside one single tweet.

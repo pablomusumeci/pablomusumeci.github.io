@@ -4,6 +4,7 @@ excerpt: Goodness of Python's OrderedDict
 last_modified_at: 2015-10-06
 categories:
   - Python
+  - Software Engineering
 ---
 
 Just wanted to share this great [post](https://www.kunxi.org/blog/2014/05/lru-cache-in-python/). It basically talks about how we can implement an LRU Cache in Python using the advantages of the **OrderedDict** data structure.

@@ -1,9 +1,13 @@
 ---
-layout: post
+title: Product array interview question 
+excerpt: Tricky array interview question
+last_modified_at: 2015-08-22
 title: Getting to know how Javscript works. 
 excerpt: "Something I think every web developer must be aware of."
-modified: 2015-09-04
+last_modified_at: 2015-09-04
 comments: true
+categories:
+  - Software Engineering
 ---
 
 I know almost nothing about Javascript and I'm not saying this just to sound humble. This is kinda embarrasing because JS is nowadays one of the most used programing languages over the internet.

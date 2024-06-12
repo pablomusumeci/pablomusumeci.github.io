@@ -4,6 +4,7 @@ excerpt: Abstract Base Class module
 last_modified_at: 2015-11-22
 categories:
   - Python
+  - Software Engineering
 ---
 
 I want to mention something that can help you to reduce the amount of error prone class hierachies in Python.

@@ -1,5 +1,5 @@
 ---
-title: Most engineering is masturbation
+title: (Most) Engineering is masturbation
 excerpt: Building the right thing instead of building the thing right
 last_modified_at: 2024-06-06
 toc: true
@@ -18,7 +18,7 @@ They pay you a generous salary plus equity for all the valuable contributions yo
 
 
 You wonder: If I can do that for someone else, imagine the things I can do for myself.
-You know frameworks and languages, testing and deploying.  You are the swiss-army knife of software.
+You know frameworks and languages, testing and deploying.  You are a swiss-army knife of software.
 
 
 There is no bureaucracy around you to slow you down. No daily stand-ups, no JIRA tickets, no coffee chats, 
@@ -40,9 +40,9 @@ No, I'm just like you.
 
 
 Have you ever asked yourself why does the story always end the same? The usual escapegoat is lack of motivation. 
-You flagellate yourself with the idea that you’re just lazy. If only you had the discipline to push through, everything would be different.
+I flagellate myself for long with the idea that I'm just lazy. If only I had the discipline to push through, everything would be different.
 
-I disagree, and Tyler Durden is going to help me explaining you what's really going on.
+I opened my eyes now, and Tyler Durden is going to help me explaining you what I've seen.
 
 # This is your life, and it’s ending one minute at a time 
 
@@ -74,7 +74,7 @@ Cal Newport, a computer science professor and author, calls this **Busyness as P
 >
 > -- <cite>Cal Newport</cite>
 
-You feel good because you’re working on it, not just slacking around like lazy people do. Sadly, the result is the same as doing nothing.
+You feel good because you’re working on it, not just slacking around. Sadly, the result is the same as doing nothing.
 
 ## Now self-destruction...
 
@@ -86,7 +86,8 @@ In your solo venture, you wear all the hats. But your natural tendency will be t
 
 For Tyler, pain is necessary for real progress. Letting go of your ego is crucial. If you want to succeed, you must become more than just an engineer.
 
-How do we let go of our ego? We take pride in our craft — scalability, reliability, extensibility. The buzzword list goes on.
+How do we let go of our ego? We don't work as engineers, we **are** engineers.
+We take pride in our craft — scalability, reliability, extensibility. The buzzword list goes on.
 
 Let go of your ego and build. Start by creating something that, by your high standards, is... 💩
 
@@ -103,10 +104,10 @@ They’re busy laughing while you’re busy shipping. You’ll laugh in the end.
 [![Levels](/assets/images/the-engineers-curse/levels.jpeg)](https://x.com/levelsio/status/1308145873843560449)
 {: refdef}
 
-He ended up launching 8 startups that year. He first tested 5 project ideas he had, and once NomadList gained traction, he focused on it.
+He ended up launching 8 startups that year. He first tested 5 project ideas he had, and once [NomadList](https://nomadlist.com/) gained traction, he focused on it.
 
 Pieter is a self-taught developer who uses the easiest, least glamorous tools like PHP and jQuery. 
-He doesn't need to unlearn a craft, which gives him a tremendous advantage over us engineers.
+He doesn't need to unlearn a craft, which gives him a tremendous advantage over any engineer.
 
 
 > To build your idea, learn to code. Just Google: "How to make a website?"
@@ -131,34 +132,6 @@ At the beginning, the problem is always figuring out which problem that is.
 > it might have seemed at the time.
 >
 > -- <cite>Eric Ries</cite>
-
-## What If You Already Know Enough?
-
-The education system prepared me to study hard and pass my exams with an A.
-The path to strong grades was clear: study harder and longer. There was a deadline for the exam, and whether I liked it or not, I would face the test and verify if I knew my shit or not.
-
-Life doesn’t work like that when you’re building something for yourself. There’s no deadline, so it’s easy to keep adding features and fixing defects until... until what? 
-
-How do I know if I already know enough? Pieter Levels learnt what he needed to solve the problem in front of him.
-He didn't started a journey to _learn how to code_. There is no finish line for that. 
-He wanted to add a feature to his project and learn just enough to solve that and move on.
-
-
-## Are you a consumer or a producer?
-
-You have this urge to create something, that's why you started a project in the first place.
-Maybe you haven't started it, but you fidget with the idea constantly.
-You are playing the wrong team, the _consumer team_.
-
-I’m constantly looking for something else to consume before I can finally produce. 
-There is always another book I can read, another tutorial I can watch.
-I was taught to consume information as the way out of problems.
-That's how it works in school and university.
-Whenever a new problem came up, I could always search for the answer. 
-
-
-But now, my time has come to act. To drop the script I've been following my entire life. 
-My time to switch teams and become a producer.
 
 # Building the right thing instead of building the thing right
 
@@ -208,6 +181,36 @@ It is adjusting, tuning, and improving.
 
 # Conclusions
 
+## What if you already know enough?
+
+The education system prepared me to study hard and pass my exams with an A.
+The path to strong grades was clear: study harder and longer. There was a deadline for the exam, and whether I liked it or not, I would face the test and verify if I knew my shit or not.
+
+Life doesn’t work like that when you’re building something for yourself. There’s no deadline, so it’s easy to keep adding features and fixing defects until... until what? 
+
+Pieter didn't started a journey to _learn how to code_. There is no finish line for that. 
+It's very easy to fall into tutorial hell, a state of perpetual learning, going from one tutorial to another without putting acquired knowledge into practice. 
+
+How do I know if I already know enough? Pieter learnt what he needed to solve the problem in front of him.
+He wanted to add a feature to his project and learn just enough to solve that particular problem and move on to the next one.
+
+
+## Are you a consumer or a producer?
+
+You have this urge to create something, that's why you started a project in the first place.
+Maybe you haven't started it, but you fidget with the idea constantly.
+You have been playing for the wrong team, the _consumer team_.
+
+I’m constantly looking for something else to consume before I can finally produce. 
+There is always another book I can read, another tutorial I can watch.
+I was taught to consume information as the way out of problems.
+That's how it works in school and university.
+Whenever a new problem came up, I could always search for the answer. 
+
+
+But now, my time has come to act. To drop the script I've been following my entire life. 
+My time to switch teams and become a producer.
+
 ## Do you practice what you preach?
 
 >  Maybe building isn't the answer, maybe shipping is the answer.
@@ -226,38 +229,19 @@ So, I created a [Google Sheet where anyone can add and edit store locations that
 
 
 I felt like a lot of people face this problem, so I shared the MVP on [Reddit](https://www.reddit.com/r/yerbamate/comments/1d86xou/mapamate_map_of_yerba_stores_around_the_world/).
-I also had a hypothesis on people willing to contribute places they know instead of me having to source all of them.
+I also had a hypothesis on people willing to contribute places they know instead of me having to source them all.
 
-The result? Absolutely no-one cared and that made me feel... good. Why? Because I shipped a horrible website 
-built with the fastest and worst Javascript I was able to produce to validate if someone was interested.
+The result? Absolutely no-one cared about my project and that made me feel... good. Why? Because I shipped a horrible website 
+built with the fastest and worst Javascript I was able to produce to validate if anybody was interested.
 
-I quickly validated my hypothesis and realized that investing more time on this would be an absolute waste.
+I quickly validated my hypothesis and realized that investing more time on this would have been an absolute waste.
 I know now something I didn't know until I shipped. It's time to pivot.
 
 ## Hungry for more?
 
-This post is based on my personal struggles shipping a personal project combined with some amazing books I've read such as:
+This post is based on my personal struggles shipping combined with some amazing books I've read such as:
 
-- Fight Club by Chuck Palahniuk
-- Deep Work: Rules for Focused Success in a Distracted World by Cal Newport
-- The Lean Startup: How Constant Innovation Creates Radically Successful Businesses by Eric Ries
-- The Millionarie Fastlane by MJ DeMarco.
-
-
-
-
-# Extra material 
-> There is nothing so useless as doing efficiently that which should not be done at all.
->
-> -- <cite>Peter Drucker</cite>
->
-
-
-> You are have only actually learned something when you change the actions you are taking.
-> tutorial hell
->
-> The school system is all about memorising and remembering facts and knowledge so that you can write it all up according to the criteria of the assessment, format it, check your spellings and grammar, send it in, get graded and if it's bad, you'll get an F and you won't be able to get it done again. They punishes mistakes and view them in a bad way.
-
-In business it's the opposite. You learn from taking action not from learning from a course or book. You learn door to door sales from action. You learn Google ads from helping someone. You learn something by taking action, not by learning a course. You learn from others and your mistakes. It's best to learn something when actually DOING it.
-
-In business, you fail, you learn from your mistakes, you try again and apply the mistakes you've learnt. And mistakes are expected and natural to come by, just have to learn from it.
+- [Fight Club by Chuck Palahniuk](https://amzn.to/3RnRlIj)
+- [Deep Work: Rules for Focused Success in a Distracted World by Cal Newport](https://amzn.to/3VH6Tt5)
+- [The Lean Startup: How Constant Innovation Creates Radically Successful Businesses by Eric Ries](https://amzn.to/3KF3iWl)
+- [The Millionarie Fastlane by MJ DeMarco.](https://amzn.to/3VH3tGV)

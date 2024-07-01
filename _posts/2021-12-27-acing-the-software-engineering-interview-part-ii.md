@@ -13,6 +13,8 @@ toc_icon: code
 toc_sticky: true
 ---
 
+> **Attention**: This blog moved to my new [Substack](https://pablomusumeci.substack.com/). Follow me there for updated content!
+
 This is the second in a [series of blog posts](https://pablomusumeci.com/categories/#interviewing) 
 where I describe my interviewing experience and thoughts in detail.
 

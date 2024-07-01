@@ -18,6 +18,8 @@ toc_icon: code
 toc_sticky: true
 ---
 
+> **Attention**: This blog moved to my new [Substack](https://pablomusumeci.substack.com/). Follow me there for updated content!
+
 > A photorealistic humanoid robot --s 750 --v 5 
 
 {:refdef: style="text-align: center;"}

@@ -7,6 +7,10 @@ categories:
 tags:
   - Productivity
 ---
+
+> **Attention**: This blog moved to my new [Substack](https://pablomusumeci.substack.com/). Follow me there for updated content!
+
+
 Are you annoyed by work stuff openning in your personal Chrome? Follow
 these steps and see how your productivity skyrockets 🚀
 

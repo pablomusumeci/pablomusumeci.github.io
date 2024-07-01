@@ -8,6 +8,8 @@ toc_icon: ship
 toc_sticky: true
 ---
 
+> **Attention**: This blog moved to my new [Substack](https://pablomusumeci.substack.com/). Follow me there for updated content!
+
 You, me, we’ve all been there. You have an amazing idea. You see the problem and can’t stop thinking about the solution. 
 You know how to code—hell yeah you do. You’re a Senior Software Engineer. 
 You ship high-quality code for a living, and maybe you even have a CS degree.

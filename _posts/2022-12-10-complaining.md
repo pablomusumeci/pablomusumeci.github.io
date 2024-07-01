@@ -7,6 +7,10 @@ categories:
 tags:
   - Stoicism
 ---
+
+> **Attention**: This blog moved to my new [Substack](https://pablomusumeci.substack.com/). Follow me there for updated content!
+
+
 > All the things which cause complaints or dread are like the taxes of life. Things from which, my dear Lucilius, you should never hope for exemption or seek escape.
 >
 > -- <cite>Seneca</cite>

@@ -4,6 +4,8 @@ excerpt: Murakami nailed it with that title
 last_modified_at: 2023-04-14
 ---
 
+> **Attention**: This blog moved to my new [Substack](https://pablomusumeci.substack.com/). Follow me there for updated content!
+
 # 32
 
 In 2023 I hit a personal record on the amounts of books I read. I set to read 26 books, 

@@ -18,6 +18,8 @@ toc_icon: code
 toc_sticky: true
 ---
 
+> **Attention**: This blog moved to my new [Substack](https://pablomusumeci.substack.com/). Follow me there for updated content!
+
 # Reducing Decision Fatigue
 
 > The best way to manage decision fatigue is to make fewer decisions. This is the path to greater willpower, productivity, and happiness.

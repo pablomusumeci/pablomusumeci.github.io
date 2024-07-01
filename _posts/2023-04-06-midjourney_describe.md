@@ -13,6 +13,9 @@ tags:
   - Midjourney
 ---
 
+> **Attention**: This blog moved to my new [Substack](https://pablomusumeci.substack.com/). Follow me there for updated content!
+
+
 For the ones who only care on the final GTA art result, here is the prompt:
 
 > grand theft auto 5 poster featuring Lionel Messi wearing a white t-shirt and blue jeans. In the style of realistic landscape paintings, frank thorne, vik muniz, panorama, oliver wetter, hand-coloring, smokey background --ar 8:5  --s 750 --v 5

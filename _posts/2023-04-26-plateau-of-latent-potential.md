@@ -9,6 +9,8 @@ tags:
   - Habits
 ---
 
+> **Attention**: This blog moved to my new [Substack](https://pablomusumeci.substack.com/). Follow me there for updated content!
+
 **Source:** [Atomic Habits by James Clear](https://www.goodreads.com/book/show/40121378-atomic-habits).
 
 Little daily actions lead to huge results over time. The key is to **keep going even when it feels like nothing is happening**.
